@@ -22,17 +22,21 @@ h1 {
 
 header {
     padding: 0 px;
+    position: fixed;
+    width: 100%
 }
 
 #paw-logo {
     float: left; 
+    transform: scale(0.8);
 }
 
-#menu {
-    font-size: large;
+#menu { 
+    font-size: larger;
     letter-spacing: 2px;
-    text-decoration: none;
-    float: right;
+    padding: 0;
+    position: fixed center center;
+    float: clear;
 }
 
 #menu, #logo {
@@ -40,26 +44,27 @@ header {
 }
 
 #menu li {
-    float: left;
+    display: inline-block; 
     list-style-type: none;
-    margin-right: 25px;
-    margin-top: 30px; 
+    text-align: center; 
+    margin: 75px 0 25px 25px;
 }
 
 #menu a {
     text-decoration: none;
-    color: inherit;
+    color: inherit; 
+    text-align: center;
 }
 
 #menu a:hover {
-    color: #f19820;
-}
-#home-text {
-    overflow: hidden;
+    background-color: #f19820;
+    border-bottom: 1px solid #F0EFEC;
 }
 
-#home-page-image {
-    height: 686px;
-    width: 100%;
-    background: url(../images/home-page-image.jpg) no-repeat;
+/* background image */
+
+.home-page-image {
+    background: url(../images/home-page-image.png) no-repeat center center;
+    height: 100vh;
+    width: 100vw;
 }
