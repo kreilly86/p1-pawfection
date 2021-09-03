@@ -7,12 +7,11 @@
 }
 
 body {
+    
     font-family: Poppins, sans-serif;
     font-weight: 300;
     color: #F0EFEC;
     background-color: #434248;
-    width: 100%;
-    min-height: fit-content;
 }
 
 h1,h2,h3 {
@@ -21,20 +20,12 @@ h1,h2,h3 {
 }
 
 /* header and navigation */
-
-header {
-    padding: 0;
-    position: relative;
-    top: 0;
-    left: 0;
-    height: 764px;
-    width: 100%
-}
-
+ 
 #paw-logo {
     float: left; 
     transform: scale(0.7);
     margin-top: -50px;
+    overflow: visible;
 }
 
 #menu { 
@@ -42,7 +33,9 @@ header {
     letter-spacing: 2px;
     padding: 0;
     display: inline-block;
-    position: absolute;
+    position: relative;
+    overflow: visible;
+   
 }
 
 #menu, #logo {
@@ -67,13 +60,12 @@ header {
     border-bottom: 1px solid #F0EFEC;
 }
 
-/* home page background image */
+/* background image */
 
-#home-page-image {
-    background: url(../images/home-page-image.png) no-repeat center center;
-    height: 100%;
+#background-image {
+    background-image: url(../images/home-page-image.png);
     width: 100%;
-    position: absolute; 
+    height: 914px;
 }
 
 /* intro text overlay */ 
@@ -97,6 +89,7 @@ header {
     top: 350px;
    
     position: absolute;
+   
 }
 
 /* footer */
@@ -105,8 +98,8 @@ footer {
     background-color: white;
     height: 200px;
     width: 100%;
-    position: fixed 0 0 0 0;
-    
+    margin-bottom: 200px;
+    position: absolute;
 }
 
 .social-links li {
@@ -172,14 +165,13 @@ footer {
     left: 300px;
     top: 350px;
 
-    position: absolute;
+    float: left;
 }
 
 .title {
     text-transform: uppercase;
     font-size: 130%;
     color:#f19820;
-    position: absolute;
     bottom: 0px;
     top: 250px;
     left: 50%;
@@ -189,14 +181,5 @@ footer {
     bottom: 350px;
     left: 1000px;
     top: 350px;
-
-    position: absolute;
-    display: inline;
-    overflow: none;
-
-}
-
-#who-are-we {
-    width: 100%;
-    height: fit-content;
+    float: right;
 }
