@@ -11,6 +11,8 @@ body {
     font-weight: 300;
     color: #F0EFEC;
     background-color: #434248;
+    width: 100%;
+    min-height: fit-content;
 }
 
 h1,h2,h3 {
@@ -74,10 +76,12 @@ header {
     position: absolute; 
 }
 
-/* intro text overlay */
+/* intro text overlay */ 
 
-.gold-box {
-    
+#intro-text {
+    color: #f0efec;
+    font-family: Poppins, sans-serif;
+    font-size: 110%;
     width: 400px;
     height: 280px;
     
@@ -92,20 +96,14 @@ header {
     left: 100px;
     top: 350px;
    
-    position: absolute; 
-}
-
-#intro-text {
-    color: #f0efec;
-    font-family: Poppins, sans-serif;
-    font-size: 110%;
+    position: absolute;
 }
 
 /* footer */
 
 footer {
     background-color: white;
-    height: 400px;
+    height: 200px;
     width: 100%;
     position: fixed 0 0 0 0;
     
@@ -118,7 +116,7 @@ footer {
 .social-links i{
     font-size: 200%;
     color: #0396a6;
-    margin: 275px 50px 50px 5px;
+    margin: 75px 50px 50px 5px;
     padding: 0; 
     float: right; 
 }
@@ -127,7 +125,7 @@ footer {
     font-family: Poppins, sans-serif;
     font-size: medium;
     color: #590817;
-    margin: 200px 0px 25px 100px;
+    margin: 25px 0px 25px 100px;
     padding: 0;
     float: left;
     display: block;
@@ -139,7 +137,7 @@ footer {
     position: relative;
     padding: 0;
     left: 1%;
-    top: 200px;
+    top: 25px;
     display: block;
     float: left;
 }
@@ -148,7 +146,7 @@ footer {
     font-family: Poppins, sans-serif;
     font-size: medium;
     color: #590817;
-    margin: 200px 100px 25px 25px;
+    margin: 25px 100px 25px 25px;
     padding: 0;
     float: left;
     display: block;
@@ -169,6 +167,12 @@ footer {
     background-color: rgba(241,152,32,.6);
     border: 1px solid #f19820;
     border-radius: 30px 30px 30px 30px;
+
+    bottom: 0px;
+    left: 300px;
+    top: 350px;
+
+    position: absolute;
 }
 
 .title {
@@ -183,7 +187,7 @@ footer {
 
 #about-us-dog1 {
     bottom: 350px;
-    left: 600px;
+    left: 1000px;
     top: 350px;
 
     position: absolute;
