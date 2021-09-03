@@ -69,8 +69,8 @@ header {
 
 .home-page-image {
     background: url(../images/home-page-image.png) no-repeat center center;
-    height: 100vh;
-    width: 100vw;
+    height: 914px;
+    width: 1600px;
     position: absolute; 
 }
 
