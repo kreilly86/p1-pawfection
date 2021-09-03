@@ -192,5 +192,11 @@ footer {
 
     position: absolute;
     display: inline;
+    overflow: none;
 
+}
+
+#who-are-we {
+    width: 100%;
+    height: fit-content;
 }
