@@ -70,7 +70,7 @@ header {
 .home-page-image {
     background: url(../images/home-page-image.png) no-repeat center center;
     height: 914px;
-    width: 1600px;
+    width: 100%;
     position: absolute; 
 }
 
@@ -91,7 +91,7 @@ header {
     border: 1px solid #f19820;
     border-radius: 30px 30px 30px 30px;
 
-    bottom: 5px;
+    bottom: 0px;
     left: 100px;
    
     position: absolute; 
@@ -104,8 +104,6 @@ footer {
     height: 100%;
     width: 100%;
     position: fixed 0 0 0 0;
-    overflow: hidden;
-
 }
 
 .social-links {
