@@ -147,6 +147,14 @@ footer {
 
 /* about us page */
 
+#about-page {
+    width: 100%;
+    height: 100%;
+    padding: 0 0 200px 0;
+    position: relative;
+    overflow: hidden;
+}
+
 #about-us {
     color: #f0efec;
     font-family: Poppins, sans-serif;
@@ -157,29 +165,66 @@ footer {
     padding: 35px 30px 30px 30px;
     text-align: center;
     
-    background-color: rgba(241,152,32,.6);
+    background-color: rgba(241,152,32,.5);
     border: 1px solid #f19820;
     border-radius: 30px 30px 30px 30px;
 
-    bottom: 0px;
-    left: 300px;
-    top: 350px;
+    left: 275px;
+    top: 400px;
 
-    float: left;
+    position: absolute; 
 }
 
-.title {
+#about-title {
     text-transform: uppercase;
     font-size: 130%;
     color:#f19820;
-    bottom: 0px;
-    top: 250px;
-    left: 50%;
+
+    top: 280px;
+    right: 50%;
+
+    position: absolute;
 }
 
-#about-us-dog1 {
-    bottom: 350px;
-    left: 1000px;
-    top: 350px;
-    float: right;
+#about-us-dog {
+    left: 500px;
+    top: 50px;
+    padding: 100px 100px 100px 100px;
+    position: relative;
+    
 }
+
+#about-dogs{
+    height: fit-content;
+    width: 100%;
+    clear: both;
+}
+
+#two-dogs {
+    left: 250px;
+    top: 775px;
+    padding: 100px 100px 100px 100px;
+    position: absolute;
+}
+
+#ethos {
+    color: #f0efec;
+    font-family: Poppins, sans-serif;
+    font-size: 100%;
+    width: 400px;
+    height: 280px;
+    
+    padding: 35px 30px 30px 30px;
+    text-align: center;
+    
+    background-color: rgba(3,150,166,.5);
+    border: 1px solid #0396a6;
+    border-radius: 30px 30px 30px 30px;
+
+    left: 800px;
+    top: 50px;
+
+    position: relative;
+}
+
+
