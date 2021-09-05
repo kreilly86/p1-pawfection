@@ -175,7 +175,7 @@ footer {
     position: absolute; 
 }
 
-#about-title {
+.main-title {
     text-transform: uppercase;
     font-size: 130%;
     color:#f19820;
@@ -227,4 +227,72 @@ footer {
     position: relative;
 }
 
+/* dog sitting info page */
 
+#own-home-sit {
+    color: #f0efec;
+    font-family: Poppins, sans-serif;
+    font-size: 100%;
+    width: 400px;
+    height: 580px;
+    
+    padding: 35px 30px 30px 30px;
+    text-align: center;
+    
+    background-color: rgba(3,150,166,.5);
+    border: 1px solid #0396a6;
+    border-radius: 30px 30px 30px 30px;
+
+    left: 200px;
+    top: 400px;
+
+    position: absolute; 
+}
+
+#own-home-sit i {
+    padding-right: 15px;
+    color: #590817;
+    font-size: 125%;
+}
+
+#our-house-sit{
+    color: #f0efec;
+    font-family: Poppins, sans-serif;
+    font-size: 100%;
+    width: 400px;
+    height: 580px;
+    
+    padding: 35px 30px 30px 30px;
+    text-align: center;
+    
+    background-color: rgba(241,152,32,.5);
+    border: 1px solid #f19820;
+    border-radius: 30px 30px 30px 30px;
+
+    left: 800px;
+    top: 150px;
+
+    position: relative;
+}
+
+#our-house-sit i{
+    padding-right: 15px;
+    color: #590817;
+    font-size: 125%; 
+}
+
+
+#dog-at-home {
+    left: 400px;
+    top: 100px;
+    padding: 75px 75px 75px 75px;
+    position: relative;
+
+}
+
+#dog-and-staff {
+    left: 125px;
+    top: 1050px;
+    padding: 75px 75px 75px 75px;
+    position: absolute;
+}
