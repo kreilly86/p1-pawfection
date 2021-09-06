@@ -25,7 +25,6 @@ h1,h2,h3 {
     float: left; 
     transform: scale(0.7);
     margin-top: -50px;
-    overflow: visible;
 }
 
 #menu { 
@@ -34,7 +33,6 @@ h1,h2,h3 {
     padding: 0;
     display: inline-block;
     position: relative;
-    overflow: visible;
    
 }
 
@@ -144,7 +142,7 @@ footer {
     display: block;
 }
 
-/* about us page */
+/* style for all pages apart from home page */
 
 .info-pages {
     width: 100%;
@@ -154,6 +152,19 @@ footer {
     position: relative;
     overflow: hidden;
 }
+
+.main-title {
+    text-transform: uppercase;
+    font-size: 130%;
+    color:#f19820;
+
+    top: 280px;
+    right: 50%;
+
+    position: absolute;
+}
+
+/* about us page */
 
 #about-us {
     color: #f0efec;
@@ -173,17 +184,6 @@ footer {
     top: 400px;
 
     position: absolute; 
-}
-
-.main-title {
-    text-transform: uppercase;
-    font-size: 130%;
-    color:#f19820;
-
-    top: 280px;
-    right: 50%;
-
-    position: absolute;
 }
 
 #about-us-dog {
@@ -313,7 +313,7 @@ footer {
 #button-for-contact {
    margin-bottom: 0px;
    margin-top: 0px;
-   left: 45%;
+   left: 44%;
    position: absolute;
    padding: 5px 0px ;
 
@@ -322,11 +322,11 @@ footer {
 #button-for-contact a {
     font: Roboto Condensed, sans-serif;
     text-transform: uppercase;
-    font-size: 100%;
-    color:#f0efec;
+    font-size: 130%;
+    color:#590817;
     padding: 10px 10px 10px 10px;
-    border: solid 2px #590817;
-    background-color: #0396a6;
+    border: solid 3px #0396a6;
+    background-color: #F0EFEC;
     text-decoration: none;
     
 }
@@ -430,10 +430,5 @@ footer {
         
 }
 
-
-#intro-text {
-    
-    
-} 
 
 }
