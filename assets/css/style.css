@@ -143,9 +143,8 @@ footer {
 .info-pages {
     width: 100%;
     height: fit-content;
-    margin-bottom: 100px;
+    margin-bottom: 0;
     padding: 0 0 200px 0;
-    position: relative;
     overflow: hidden;
 }
 
