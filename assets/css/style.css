@@ -171,52 +171,53 @@ footer {
 
 .container-1 {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-   
-    background-color: rgba(3,150,166,.5);
     width: 75%;
-    padding:0;
+    height: fit-content;
+    padding: 0;
     margin-bottom: 50px;
     margin-left: 5%;
 }
 
 .textbox-blue {
     color: #f0efec;
+    background-color: rgba(3,150,166,.4);
     font-family: Poppins, sans-serif;
     font-size: 100%;
     padding: 100px;
     text-align: center;
-    display: flex-box;
+    display: flexbox;
+
 }
 
 .image-bluebox {
     width: 480px;
-    min-height: max-content;
+    display: flexbox;
 }
 
 .container-2 {
     display: flex;
-    justify-content: space-around;
+    flex-direction: row-reverse;
     align-items: center;
-    background-color: rgba(241,152,32,.5);
-    max-height: max-content;
+    height: fit-content;
     width: 75%;
     margin-bottom: 50px;
-    margin-left: 20%;
+    margin-left: 10%;
 
 }
 .textbox-gold {
-    color: #f0efec;
+    color: #F0EFEC;
     font-family: Poppins, sans-serif;
+    background-color: rgba(241,152,32,.4);
     font-size: 100%;
     padding: 100px;
     text-align: center;
-    display: flex-box;
+    display: flexbox;
 }
 
 .image-goldbox {
     width: 480px;
+    display: flexbox;
 }
 
 /* dog sitting info page */
