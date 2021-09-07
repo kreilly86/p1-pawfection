@@ -60,6 +60,10 @@ h1,h2,h3 {
     border-bottom: 1px solid #F0EFEC;
 }
 
+.active {
+    border-bottom: 1px solid #F0EFEC;
+}
+
 /* background image */
 
 #background-image {
@@ -80,7 +84,7 @@ h1,h2,h3 {
     padding: 30px 30px 30px 30px;
     text-align: center;
     
-    background-color: rgba(21, 77, 92, 0.6);
+    background-color: rgba(21, 77, 92, 0.8);
     border: 1px solid #154D5C;
     border-radius: 30px 30px 30px 30px;
 
