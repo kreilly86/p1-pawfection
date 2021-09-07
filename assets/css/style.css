@@ -152,7 +152,7 @@ footer {
     width: 100%;
     height: max-content;
     margin-bottom: 0;
-    padding: 0 0 200px 0;
+    padding: 0;
     overflow: hidden;
 }
 
@@ -164,64 +164,59 @@ footer {
     margin-top: 100px;
     margin-right: 30%;
     text-align: center;
-    padding: 0;
+    padding-bottom: 100px;
 }
 
 /* about us page */
 
-#about-us {
-    color: #f0efec;
-    font-family: Poppins, sans-serif;
-    font-size: 100%;
-    width: 400px;
-    height: 300px;
-    
-    padding: 35px 30px 30px 30px;
-    text-align: center;
-    
+.container-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
     background-color: rgba(3,150,166,.5);
-    border: 1px solid #0396a6;
-    border-radius: 30px 30px 30px 30px;
-
-    left: 275px;
-    top: 400px;
-
-    position: absolute; 
+    width: 75%;
+    padding:0;
+    margin-bottom: 50px;
+    margin-left: 5%;
 }
 
-#about-us-dog {
-    left: 500px;
-    top: 50px;
-    padding: 100px 100px 100px 100px;
-    position: relative;
-    
-}
-
-#two-dogs {
-    left: 250px;
-    top: 775px;
-    padding: 100px 100px 100px 100px;
-    position: absolute;
-}
-
-#ethos {
+.textbox-blue {
     color: #f0efec;
     font-family: Poppins, sans-serif;
     font-size: 100%;
-    width: 400px;
-    height: 280px;
-    
-    padding: 35px 30px 30px 30px;
+    padding: 100px;
     text-align: center;
-    
+    display: flex-box;
+}
+
+.image-bluebox {
+    width: 480px;
+    min-height: max-content;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: rgba(241,152,32,.5);
-    border: 1px solid #f19820;
-    border-radius: 30px 30px 30px 30px;
+    max-height: max-content;
+    width: 75%;
+    margin-bottom: 50px;
+    margin-left: 20%;
 
-    left: 800px;
-    top: 50px;
+}
+.textbox-gold {
+    color: #f0efec;
+    font-family: Poppins, sans-serif;
+    font-size: 100%;
+    padding: 100px;
+    text-align: center;
+    display: flex-box;
+}
 
-    position: relative;
+.image-goldbox {
+    width: 480px;
 }
 
 /* dog sitting info page */
