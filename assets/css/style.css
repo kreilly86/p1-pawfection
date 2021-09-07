@@ -223,14 +223,14 @@ footer {
     color:#590817;
     padding-right: 5px;
 }
+
 .hl {
     border-bottom: 2px solid #f19820;
     width: 90%;
     padding: 0;
     top: 250px;
     margin-left: 75px;
-    display: block;
-    
+    display: block;  
 }
 
 #interested {
@@ -249,12 +249,12 @@ footer {
 }
 
 #button-for-contact a {
-    font: Roboto Condensed, sans-serif;
+    font: Poppins, sans-serif;
     text-transform: uppercase;
     font-size: 130%;
-    color:#590817;
+    color:#03515D;
     padding: 10px 10px 10px 10px;
-    border: solid 3px #0396a6;
+    border: solid 3px #03515D;
     background-color: #F0EFEC;
     text-decoration: none;
     
