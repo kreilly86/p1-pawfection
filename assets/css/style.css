@@ -209,7 +209,7 @@ footer {
     background-color: rgba(241,152,32,.4);
     font-size: 100%;
     padding: 75px;
-    text-align: center;
+    text-align: left;
     display: flexbox;
 }
 
@@ -219,7 +219,10 @@ footer {
 
 /* dog sitting info page */
 
-
+.house-icon i{
+    color:#590817;
+    padding-right: 5px;
+}
 .hl {
     border-bottom: 2px solid #f19820;
     width: 90%;
