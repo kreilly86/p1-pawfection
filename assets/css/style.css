@@ -184,8 +184,6 @@ footer {
     font-size: 100%;
     padding: 75px;
     text-align: left;
-    display: flexbox;
-
 }
 
 .image-blue-box {
@@ -296,11 +294,14 @@ footer {
 #email {
     font-size: 120%;
     padding: 5px;
+    margin-bottom: 5px;
+    float: left;
+    
 }
 
 .input {
     border: 1px solid #F0EFEC;
-    width: 85%;
+    width: 90%;
     height: 20px;
     color:#F0EFEC;
     font-size: 105%;
@@ -322,13 +323,18 @@ footer {
     font-family: inherit;
     font-size: 105%;
     padding: 10px 10px;
-    margin-top: 5px;
+    margin-top: 15px;
     box-sizing: border-box;
     border: 2px solid #F0EFEC;
     border-radius: 2px;
     background-color: #F0EFEC;
     resize: none;
  }
+
+ #message-label {
+    float: left;
+ }
+
 
  .send {
     font-family: Poppins, sans-serif;
