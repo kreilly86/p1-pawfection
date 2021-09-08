@@ -7,7 +7,6 @@
 }
 
 body {
-    
     font-family: Poppins, sans-serif;
     font-weight: 300;
     color: #F0EFEC;
@@ -26,8 +25,7 @@ h1,h2,h3 {
     margin: 20px 30px 0px 60px;
     height: 280px;
     width: 280px;
-    padding: 0;
-   
+    padding: 0; 
 }
 
 #menu { 
@@ -88,7 +86,6 @@ h1,h2,h3 {
     border: 1px solid #154D5C;
     border-radius: 30px 30px 30px 30px;
 
-    
     margin-left: 100px;
     margin-top: 175px;
 }
@@ -151,7 +148,8 @@ footer {
 .info-pages {
     width: 100%;
     height: max-content;
-    margin-bottom: 0;
+    margin-bottom: 100px;
+    margin-left: 25px;
     padding: 0;
     overflow: hidden;
 }
@@ -197,7 +195,7 @@ footer {
     justify-content: space-evenly;
     width: 75%;
     padding: 0 0 100px 0;
-    margin-bottom: 100px;
+    margin-bottom: 0px;
     margin-left: 10%;
 }
 .textbox-gold {
@@ -267,7 +265,7 @@ footer {
     background: url(../images/thank-you-dog.png) no-repeat;
     width: 600px;
     height: 800px;
-    margin: 0px 25px 100px 25px;
+    margin: 0px 50px 0px 0px;
 }
 
 .contact-form {
@@ -275,6 +273,7 @@ footer {
     margin: 0;
     color: #f0efec;
     background-color: rgba(3,150,166,.4);
+    margin-right: 25px;
     height: fit-content;
     padding: 40px;
 }
