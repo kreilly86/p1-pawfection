@@ -213,6 +213,15 @@ footer {
     width: 100%;
 }
 
+#dog1 {
+    width: 480px;
+    height: 720px;
+}
+
+#dogs {
+    width: 480px;
+    height: 720px;
+}
 /* dog sitting info page */
 
 .house-icon i{
