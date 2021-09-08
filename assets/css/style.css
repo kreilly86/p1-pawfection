@@ -149,7 +149,6 @@ footer {
     width: 100%;
     height: max-content;
     margin-bottom: 100px;
-    margin-left: 25px;
     padding: 0;
     overflow: hidden;
 }
@@ -245,8 +244,13 @@ footer {
     padding: 10px 10px 10px 10px;
     border: solid 1px #F0EFEC;
     background-color: #03515D;
-    text-decoration: none;
-    
+    text-decoration: none; 
+}
+
+#button-for-contact a:hover {
+    border: solid 1px #f19820;
+     background-color: #F0EFEC;
+     color: #03515D;
 }
 
 /* testimonial page */
@@ -345,7 +349,12 @@ footer {
     margin: 10px 0 0 0;
  }
 
-/* media quieries */
+ .send:hover {
+     border: solid 1px #f19820;
+     background-color: #F0EFEC;
+     color: #03515D;
+ }
+ * media quieries */
 
 /* home page */
 
