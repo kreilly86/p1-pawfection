@@ -295,11 +295,10 @@ footer {
     width: 100%;
     height: fit-content;
 }
-.thank-you-dog { 
-    background: url(../images/thank-you-dog.png) no-repeat;
+.thank-you-dog > img { 
     width: 600px;
     height: 800px;
-    margin: 0px 50px 0px 0px;
+    margin: 0px 50px 100px 0px;
 }
 
 .contact-form {
