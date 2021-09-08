@@ -184,12 +184,12 @@ footer {
     font-size: 100%;
     padding: 75px;
     text-align: left;
-    display: inline-flexbox;
+    display: flexbox;
 
 }
 
 .image-blue-box {
-    display: inline-flexbox;
+    width: 100%;
 }
 
 .container-2 {
@@ -209,11 +209,10 @@ footer {
     font-size: 100%;
     padding: 75px;
     text-align: left;
-    display: inline-flexbox;
 }
 
 .image-gold-box {
-    display: inline-flexbox;
+    width: 100%;
 }
 
 /* dog sitting info page */
@@ -244,7 +243,7 @@ footer {
 }
 
 #button-for-contact a {
-    font: Poppins, sans-serif;
+    font-family: Poppins, sans-serif;
     font-size: 130%;
     color:#F0EFEC;
     padding: 10px 10px 10px 10px;
@@ -271,7 +270,6 @@ footer {
     width: 600px;
     height: 800px;
     margin: 0px 25px 100px 25px;
-    display: inline-flexbox;
 }
 
 .contact-form {
@@ -281,7 +279,6 @@ footer {
     background-color: rgba(3,150,166,.4);
     height: fit-content;
     padding: 40px;
-    display: inline-flexbox;
 }
 
 #first-name {
