@@ -184,12 +184,12 @@ footer {
     font-size: 100%;
     padding: 75px;
     text-align: left;
-    display: flexbox;
+    display: inline-flexbox;
 
 }
 
 .image-blue-box {
-    display: flexbox;
+    display: inline-flexbox;
 }
 
 .container-2 {
@@ -209,11 +209,11 @@ footer {
     font-size: 100%;
     padding: 75px;
     text-align: left;
-    display: flexbox;
+    display: inline-flexbox;
 }
 
 .image-gold-box {
-    display: flexbox;
+    display: inline-flexbox;
 }
 
 /* dog sitting info page */
@@ -271,7 +271,7 @@ footer {
     width: 600px;
     height: 800px;
     margin: 0px 25px 100px 25px;
-    display: flexbox;
+    display: inline-flexbox;
 }
 
 .contact-form {
