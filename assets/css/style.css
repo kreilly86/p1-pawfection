@@ -20,12 +20,15 @@ h1,h2,h3 {
 
 /* header and navigation */
  
-#paw-logo {
+.paw-logo {
     float: left;  
     margin: 20px 30px 0px 60px;
+    padding: 0; 
+}
+
+.paw-logo > img {
     height: 280px;
     width: 280px;
-    padding: 0; 
 }
 
 #menu { 
