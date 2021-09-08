@@ -224,6 +224,16 @@ footer {
 }
 /* dog sitting info page */
 
+#dog-home {
+    width: 480px;
+    height: 640px;
+}
+
+#dog-staff {
+    width: 480px;
+    height: 719px;
+}
+
 .house-icon i{
     color:#590817;
     padding-right: 5px;
@@ -267,14 +277,14 @@ footer {
 
 /* testimonial page */
 /* repeated class selectors to display content in flex boxes */
-#dog-home {
-    width: 480px;
-    height: 640px;
+#testimony1 {
+    width: 640px;
+    height: 427px;
 }
 
-#dog-staff {
-    width: 480px;
-    height: 719px;
+#testimony2 {
+    width: 640px;
+    height: 427px;
 }
 /* contact page */
 
@@ -297,6 +307,7 @@ footer {
     margin: 0;
     color: #f0efec;
     background-color: rgba(3,150,166,.4);
+    border: 1px solid #f19820;
     margin-right: 25px;
     height: fit-content;
     padding: 40px;
@@ -374,7 +385,8 @@ footer {
      background-color: #F0EFEC;
      color: #03515D;
  }
- * media quieries */
+ 
+ /* media quieries */
 
 /* home page */
 
