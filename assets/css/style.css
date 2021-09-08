@@ -267,7 +267,15 @@ footer {
 
 /* testimonial page */
 /* repeated class selectors to display content in flex boxes */
+#dog-home {
+    width: 480px;
+    height: 640px;
+}
 
+#dog-staff {
+    width: 480px;
+    height: 719px;
+}
 /* contact page */
 
 .contact {
