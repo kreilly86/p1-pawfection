@@ -249,8 +249,8 @@ footer {
 
 #button-for-contact a:hover {
     border: solid 1px #f19820;
-     background-color: #F0EFEC;
-     color: #03515D;
+    background-color: #F0EFEC;
+    color: #03515D;
 }
 
 /* testimonial page */
@@ -282,19 +282,19 @@ footer {
     padding: 40px;
 }
 
-#first-name {
+#f-name {
     font-size: 120%;
     float: left;
     padding: 5px;
 }
 
-#last-name {
+#l-name {
     font-size: 120%;
     float: left;
     padding: 5px;
 }
 
-#email {
+#email-address {
     font-size: 120%;
     padding: 5px;
     margin-bottom: 5px;
@@ -316,7 +316,7 @@ footer {
 
  .input:hover, .message:hover {
     border: 1px solid rgba(241,152,32,.6);
-    background-color: #F0EFEC; 
+    background-color: rgba(240, 239, 236, 0.7); 
  }
 
  .message {
@@ -333,7 +333,7 @@ footer {
     resize: none;
  }
 
- #message-label {
+ #message {
     float: left;
  }
 
