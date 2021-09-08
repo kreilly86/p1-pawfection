@@ -295,8 +295,7 @@ footer {
     font-size: 120%;
     padding: 5px;
     margin-bottom: 5px;
-    float: left;
-    
+    float: left; 
 }
 
 .input {
@@ -313,7 +312,7 @@ footer {
  }
 
  .input:hover, .message:hover {
-    border: 2px solid rgba(241,152,32,.6);
+    border: 1px solid rgba(241,152,32,.6);
     background-color: #F0EFEC; 
  }
 
