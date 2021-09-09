@@ -407,14 +407,61 @@ footer {
     }
 
     #intro-text {
-        margin-top: 150px;
+        margin: 150px 0px 0px 50px;
 }
 
     #background-image {
     overflow: visible;
+    background-position: center;
 }
 
 }
 
 /* for medium screens 992px and down */
 
+@media screen and (max-width: 992px) {
+
+#paw-logo {
+    transform: scale(0.8);
+    margin: 0;
+    padding: 0;
+    margin-right: 5px;
+}
+
+ #menu {
+     font-size: large;
+     padding: 0;
+     margin: -150px 50px 0px 0px;
+ }
+
+ #intro-text {
+     margin: 0px 0px 0px 30px;
+}
+
+#background-image {
+    overflow: hidden;
+    width: 100%;
+    background-position: center;
+}
+
+.social-links i {
+    font-size: 150%;
+}
+
+}
+
+/* for small screens 800px and down */
+
+@media screen and (max-width: 800px) {
+
+    .social-links i {
+        font-size: 125%;
+        margin-left: 0px;
+    }
+
+    #contact-info {
+        margin-right: 0px;
+    }
+    
+ 
+}
