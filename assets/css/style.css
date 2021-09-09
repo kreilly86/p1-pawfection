@@ -387,81 +387,286 @@ footer {
  
  /* media quieries */
 
-/* home page */
+ /* home page */
 
-/* for larger to medium screen sizes 1200px wide and down */
+/* for larger to medium screens sizes 1128px wide and down  */
 
-@media screen and (max-width: 1200px) {
-   
-   #paw-logo {
-       transform: scale(0.9);
-       margin: 0;
-       padding: 0;
-       margin-right: 5px;
-   }
+@media screen and (max-width: 1128px) {
 
-    #menu {
-        font-size: large;
+    #paw-logo {
+        transform: scale(0.8);
+        margin: 0;
         padding: 0;
-        margin: 5px 5px 5px 0px;
+        line-height: 5px;
     }
+ 
+     #menu {
+         font-size: medium;
+         padding: 0;
+         margin-top: 5px;
+         margin-left: 0px;
+         margin-bottom: 10px;     
+ }
 
-    #intro-text {
-        margin: 150px 0px 0px 50px;
+    #menu li {
+        display:inline-block;
+    }
+ 
+     #intro-text {
+         margin-bottom: 50px;
+ }
+ 
+     #background-image {
+     overflow: visible;
+ }
+
 }
 
-    #background-image {
-    overflow: visible;
-    background-position: center;
-}
+/* for medium screens 920px wide and down  */
 
-}
-
-/* for medium screens 992px and down */
-
-@media screen and (max-width: 992px) {
-
+@media screen and (max-width: 920px) {
+    
 #paw-logo {
     transform: scale(0.8);
     margin: 0;
     padding: 0;
-    margin-right: 5px;
+    line-height: 5px;
+}
+
+#menu, #paw-logo {
+    line-height: 0px;
 }
 
  #menu {
-     font-size: large;
+     font-size: medium;
+     width: 100%;
      padding: 0;
-     margin: -150px 50px 0px 0px;
- }
-
- #intro-text {
-     margin: 0px 0px 0px 30px;
+     margin-top: 0px;
+     margin-left: 5px;
+     margin-bottom: 10px;       
 }
 
-#background-image {
-    overflow: hidden;
-    width: 100%;
-    background-position: center;
-}
-
-.social-links i {
-    font-size: 150%;
-}
+ 
+#intro-text {
+    margin: 75px 10px 0px 50px;
+    clear: left;
 
 }
 
-/* for small screens 800px and down */
+ #background-image {
+ overflow: visible;
+ background-position: center;
+}
 
-@media screen and (max-width: 800px) {
+}
 
+/* for medium screens 840px wide and down */
+
+@media screen and (max-width: 840px) {
+
+    #paw-logo {
+        transform: scale(0.7);
+        margin: 0;
+        padding: 0;
+        line-height: 5px;
+    }
+
+    #intro-text {
+        font-size: 95%;
+    }
+
+    #times {
+        font-family: Poppins, sans-serif;
+        font-size: 85%;
+        margin: 50px 5px 25px 30px;
+        padding: 0;
+    }
+    
+    .vl {
+        border-left: 1px solid #f19820;
+        height: 100px;
+        position: relative;
+        padding: 0;
+        margin: 0 10px 0 0;
+        display: block;
+        float: left;
+    }
+
+    .social-links {
+        display: block;
+        clear: left;
+    }
     .social-links i {
-        font-size: 125%;
-        margin-left: 0px;
+        font-size: 150%;
+        margin: -100px 25px 100px 0px;
+        padding: 0; 
+        float: right; 
     }
 
     #contact-info {
-        margin-right: 0px;
+        margin: 50px 0px 25px 5px;
+        font-size: 85%;
+    }
+
+
+}
+
+/* for medium screens 576px wide and down */
+ 
+@media screen and (max-width: 576px) {
+
+    #paw-logo {
+        transform: scale(0.7);
+        margin: 0;
+        padding: 0;
+        line-height: 5px;
+    }
+
+    #intro-text {
+        font-size: 90%;
+        width: 65%;
+        height: 30%;
+        padding: 15px;
+        margin: 50px 100px 0px 10px;
+        clear: left;
+    }
+
+    #times {
+        font-family: Poppins, sans-serif;
+        font-size: 85%;
+        margin: 50px 5px 25px 30px;
+        padding: 0;
     }
     
- 
+    .vl {
+        border-left: 1px solid #f19820;
+        height: 100px;
+        position: relative;
+        padding: 0;
+        margin: 0 10px 0 0;
+        display: block;
+        float: left;
+    }
+
+    .social-links {
+        display: block;
+        clear: left;
+    }
+    
+    .social-links i {
+        font-size: 125%;
+        margin: 0px 50px 50px 30px;
+        padding: 0;
+    }
+
+    #contact-info {
+        margin: 50px 0px 25px 5px;
+        font-size: 80%;
+    }
+
+    #times {
+        font-family: Poppins, sans-serif;
+        font-size: 80%;
+        margin: 50px 5px 25px 30px;
+        padding: 0;
+    }
+    
+    .vl {
+        border-left: 2px solid #f19820;
+        height: 100px;
+        position: relative;
+        padding: 0;
+        margin: 0 10px 0 0;
+        display: block;
+        float: left;
+    }
+    
 }
+
+
+/* for small screens 320px and down */
+
+/* home page */
+
+@media screen and (max-width: 320px) {
+
+    #paw-logo {
+        transform: scale(0.6);
+        margin: 0;
+        padding: 0;
+    }
+
+   
+
+    #menu, #paw-logo {
+        line-height: 0px;
+    }
+    
+    #menu {
+        letter-spacing: normal;
+        width: 100%;
+        display: inline-block;
+        
+    }
+
+     #menu li {
+         font-size: smaller;
+         width: 30vw;
+         padding: 5px 10px 25px 10px;
+         margin: 0 0 0 2%;
+         text-align: left;
+         
+     }
+    
+     #intro-text {
+        width: 45%;
+        height: 35%;
+        padding: 15px;
+        font-size: 70%;
+        margin: 25px 10px 0px 135px;
+        clear: left;
+      
+    }
+    
+    #background-image {
+        overflow: hidden;
+        background-size: inherit;
+        background-repeat: no-repeat;
+        background-position: 70%;
+    }
+
+    
+    #times {
+        font-family: Poppins, sans-serif;
+        font-size: 70%;
+        margin: 50px 5px 25px 30px;
+        padding: 0;
+    }
+    
+    .vl {
+        border-left: 1px solid #f19820;
+        height: 70px;
+        position: relative;
+        padding: 0;
+        margin: 0 10px 0 0;
+        display: block;
+        float: left;
+    }
+
+    .social-links {
+        display: block;
+        clear: left;
+    }
+
+    .social-links i {
+        font-size: 110%;
+        margin: 0px 75px 0px 0px;
+        padding: 0;
+    }
+
+    #contact-info {
+        margin: 50px 0px 25px 5px;
+        font-size: 70%;
+    }
+    
+} 
