@@ -522,12 +522,16 @@ footer {
         line-height: 5px;
     }
 
+    #menu {
+        margin: 0px 0px 0px 10px;
+    }
+
     #intro-text {
         font-size: 90%;
         width: 65%;
         height: 30%;
         padding: 15px;
-        margin: 15px 100px 0px 10px;
+        margin: 15px 100px 0px 25px;
         clear: left;
     }
 
