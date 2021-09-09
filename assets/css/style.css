@@ -85,7 +85,7 @@ h1,h2,h3 {
     padding: 30px 30px 30px 30px;
     text-align: center;
     
-    background-color: rgba(21, 77, 92, 0.8);
+    background-color: rgba(21, 77, 92, 0.7);
     border: 1px solid #154D5C;
     border-radius: 10px 10px 10px 10px;
 
@@ -527,7 +527,7 @@ footer {
         width: 65%;
         height: 30%;
         padding: 15px;
-        margin: 50px 100px 0px 10px;
+        margin: 25px 100px 0px 10px;
         clear: left;
     }
 
@@ -584,7 +584,7 @@ footer {
 }
 
 
-/* for small screens 320px and down */
+/* for small screens 320px */
 
 /* home page */
 
@@ -595,8 +595,6 @@ footer {
         margin: 0;
         padding: 0;
     }
-
-   
 
     #menu, #paw-logo {
         line-height: 0px;
@@ -623,7 +621,7 @@ footer {
         height: 35%;
         padding: 15px;
         font-size: 70%;
-        margin: 25px 10px 0px 135px;
+        margin: 15px 10px 0px 135px;
         clear: left;
       
     }
