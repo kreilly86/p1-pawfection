@@ -168,10 +168,11 @@ footer {
 
 /* about us page */
 
+
 .container-1 {
     display: flex;
     align-items: center;
-    width: 75%;
+    width: 80%;
     padding: 0;
     margin-bottom: 50px;
     margin-left: 5%;
@@ -179,7 +180,9 @@ footer {
 
 .textbox-blue {
     color: #f0efec;
+    flex-flow: row;
     background-color: rgba(3,150,166,.4);
+    border-radius: 10px;
     font-family: Poppins, sans-serif;
     font-size: 100%;
     padding: 75px;
@@ -204,6 +207,7 @@ footer {
     color: #F0EFEC;
     font-family: Poppins, sans-serif;
     background-color: rgba(241,152,32,.4);
+    border-radius: 10px;
     font-size: 100%;
     padding: 75px;
     text-align: left;
@@ -387,9 +391,9 @@ footer {
  
  /* media quieries */
 
- /* home page */
-
 /* for larger to medium screens sizes 1128px wide and down  */
+
+ /* home page */
 
 @media screen and (max-width: 1128px) {
 
@@ -420,9 +424,51 @@ footer {
      overflow: visible;
  }
 
+ /* about us dog sitting and testimonial pages */
+
+.container-1 {
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+}
+.container-1 > * {
+    padding: 50px; 
+}
+
+.textbox-blue {
+    order: 1;
+    border-radius: 10px;
+}
+
+.image-blue-box {
+    order: 2;
+    justify-content: center;
+}
+
+.container-2 {
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+}
+.container-2 > * {
+    padding: 50px; 
+}
+
+.textbox-gold {
+    order: 1;
+    border-radius: 10px;
+}
+
+.image-gold-box {
+    order: 2;
+    justify-content: center;
+}
+
 }
 
 /* for medium screens 920px wide and down  */
+
+/* home page */
 
 @media screen and (max-width: 920px) {
     
@@ -458,9 +504,55 @@ footer {
  background-position: center;
 }
 
+  /* about us, dog sitting and testimonial pages */
+     
+  .main-title {
+    font-size: 110%;
+}
+
+ .container-1 {
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+}
+.container-1 > * {
+    padding: 25px; 
+}
+
+.textbox-blue {
+    order: 1;
+    border-radius: 10px;
+}
+
+.image-blue-box {
+    order: 2;
+    justify-content: center;
+}
+
+.container-2 {
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+}
+.container-2 > * {
+    padding: 25px; 
+}
+
+.textbox-gold {
+    order: 1;
+    border-radius: 10px;
+}
+
+.image-gold-box {
+    order: 2;
+    justify-content: center;
+}
+
 }
 
 /* for medium screens 840px wide and down */
+
+/* homepage and footer*/
 
 @media screen and (max-width: 840px) {
 
@@ -508,10 +600,57 @@ footer {
         font-size: 85%;
     }
 
+    /* about us, dog sitting and testimonial pages */
+     
+    .main-title {
+        font-size: 100%;
+    }
+
+.container-1 {
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+}
+.container-1 > * {
+    padding: 50px; 
+}
+
+.textbox-blue {
+    order: 1;
+    border-radius: 10px;
+}
+
+.image-blue-box {
+    order: 2;
+    justify-content: center;
+}
+
+.container-2 {
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+}
+.container-2 > * {
+    padding: 50px; 
+}
+
+.textbox-gold {
+    order: 1;
+    border-radius: 10px;
+}
+
+.image-gold-box {
+    order: 2;
+    justify-content: center;
+}
+
+
 
 }
 
 /* for medium screens 576px wide and down */
+
+/* home page and footer */
  
 @media screen and (max-width: 576px) {
 
@@ -584,12 +723,59 @@ footer {
         display: block;
         float: left;
     }
+
+/* about us, dog sitting and testimonial pages */
+     
+.main-title {
+        font-size: 90%;
+    }
+
+.container-1 {
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+}
+.container-1 > * {
+    padding: 20px; 
+    justify-content: center;
+}
+
+.textbox-blue {
+    order: 1;
+    border-radius: 10px;
+}
+
+.image-blue-box {
+    order: 2;
+    justify-content: center;
+}
+
+.container-2 {
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+}
+.container-2 > * {
+    padding: 20px; 
+    justify-content: center;
+}
+
+.textbox-gold {
+    order: 1;
+    border-radius: 10px;
+}
+
+.image-gold-box {
+    order: 2;
+    justify-content: center;
+}
+
     
 }
 
 /* for small screens 320px */
 
-/* home page */
+/* home page and footer */
 
 @media screen and (max-width: 320px) {
 
@@ -607,6 +793,7 @@ footer {
         letter-spacing: normal;
         width: 100%;
         display: inline-block;
+        margin: 5px 0 0 0;
         
     }
 
@@ -669,5 +856,53 @@ footer {
         margin: 50px 0px 25px 5px;
         font-size: 70%;
     }
+
+/* about us, dog sitting and testimonial pages */
+     
+    .main-title {
+        font-size: 80%;
+    }
+
+.container-1 {
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+}
+.container-1 > * {
+    padding: 10px;
+    justify-content: center; 
+}
+
+.textbox-blue {
+    order: 1;
+    border-radius: 10px;
+}
+
+.image-blue-box {
+    order: 2;
+    justify-content: center;
+}
+
+.container-2 {
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+}
+.container-2 > * {
+    padding: 10px; 
+    justify-content: center;
+}
+
+.textbox-gold {
+    order: 1;
+    border-radius: 10px;
+}
+
+.image-gold-box {
+    order: 2;
+    justify-content: center;
+    transform: scale(0.5);
+}
+
     
 } 
