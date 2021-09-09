@@ -245,7 +245,7 @@ footer {
 
 .hl {
     border-bottom: 2px solid #f19820;
-    width: 90%;
+    width: 80%;
     padding: 0;
     top: 250px;
     margin-left: 75px;
@@ -253,7 +253,7 @@ footer {
 }
 
 #interested {
-    margin: 50px 0 25px 50%;
+    margin: 50px 50% 25px 50%;
     padding: 0px;
 }
 
@@ -281,6 +281,7 @@ footer {
 
 /* testimonial page */
 /* repeated class selectors to display content in flex boxes */
+
 #testimony1 {
     width: 640px;
     height: 427px;
@@ -505,6 +506,10 @@ footer {
 }
 
   /* about us, dog sitting and testimonial pages */
+
+  .info-pages {
+      margin-bottom: 50px;
+  }
      
   .main-title {
     font-size: 110%;
@@ -602,6 +607,10 @@ footer {
 
     /* about us, dog sitting and testimonial pages */
      
+    .info-pages {
+        margin-bottom: 50px;
+    }
+
     .main-title {
         font-size: 100%;
     }
@@ -643,8 +652,6 @@ footer {
     order: 2;
     justify-content: center;
 }
-
-
 
 }
 
@@ -725,6 +732,10 @@ footer {
     }
 
 /* about us, dog sitting and testimonial pages */
+
+.info-pages {
+    margin-bottom: 50px;
+}
      
 .main-title {
         font-size: 90%;
@@ -773,11 +784,11 @@ footer {
     
 }
 
-/* for small screens 320px */
+/* for small screens 380px and down */
 
 /* home page and footer */
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 380px) {
 
     #paw-logo {
         transform: scale(0.6);
@@ -858,8 +869,12 @@ footer {
     }
 
 /* about us, dog sitting and testimonial pages */
-     
-    .main-title {
+
+.info-pages {
+    margin-bottom: 25px;
+}
+
+ .main-title {
         font-size: 80%;
     }
 
@@ -881,6 +896,7 @@ footer {
 .image-blue-box {
     order: 2;
     justify-content: center;
+    width: 80vw;
 }
 
 .container-2 {
@@ -900,6 +916,9 @@ footer {
 
 .image-gold-box {
     order: 2;
+}
+
+.image-gold-box > img{
     justify-content: center;
     transform: scale(0.5);
 }
