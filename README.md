@@ -14,13 +14,14 @@ Pawfection is aimed at dog owners in the Galway area, who may feel unsure and st
 <hr>
 
 ### Existing Features
+<hr>
 <br>
 <hr>
 
 #### LOGO
 <hr>
 <br>
-I made the logo using Canva with this [Logo Template](https://www.canva.com/templates/EAEmw6OtL8Q-pet-shelter-logo/) . I chose colors that would be warm, and contrast well agaist each other. The logo is also a clickable link to bring the user back to the homepage.
+I made the logo using Canva with this [Logo Template](https://www.canva.com/templates/EAEmw6OtL8Q-pet-shelter-logo/). I chose colors that would be warm, and contrast well agaist each other. The logo is also a clickable link to bring the user back to the homepage.
 <br>
 <br>
 <hr>
@@ -115,6 +116,7 @@ The Dog Sitting page utilizes the simple image and text box display to seperate 
 <br>
 At the bottom of the Dog Sitting page there is a gold colored horizontal rule to divide the main content from an additional feature. This feature is an internal link button that takes the user to the contact page. This makes it quick for the user to submit a dog sitting request once they have just read about the services provided
 <br>
+<br>
 <img src="assets/images/interested-button-sshot.png">
 
 <hr>
@@ -146,5 +148,69 @@ The send button is styled with a hover psuedo class, so the experience is more i
 <br>
 <br>
 <img src="assets/images/hover-send-sshot.png">
+<br>
+<hr>
+
+### FEATURES LEFT TO IMPLEMENT
+<hr>
+I would like to change the navigation bar when the site is used on another device. Rather than have the menu shrink in size and move underneath the logo, I want to implement a hamburger mobile menu so that the user can easily hover over and see all of the navigation links. This would make the mobile design more sleek and polished.
+<br>
+<hr>
+
+### TESTING
+<hr>
+<br>
+
+/* input testing information here */
+
+<br>
+<hr>
+
+#### VALIDATOR TESTING
+<hr>
+<br>
+HTML
+<br>
+
+-No issues were returned when passing through the [Offical WSC validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fkreilly86.github.io%2Fp1-pawfection)
+<br>
+
+CSS
+
+-No issues were returned when passing through the official [(Jigsaw)validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkreilly86.github.io%2Fp1-pawfection%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+<br>
+<br>
+<hr>
+
+### DEPLOYMENT
+<hr>
+<br>
+The site was deployed to GitHub pages. The steps to deploy are the following:
+<br>
+<br>
+In the GitHub repository, navigate to the Settings tab
+and click on'Pages'. Select the Main Branch. Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+<br>
+<br>
+The live link can be found here [Pawfection](https://kreilly86.github.io/p1-pawfection)
+<br>
+<hr>
+
+### CREDITS
+<hr>
+<br>
+
+#### CONTENT
+<br>
+-The social media icons used in the footer, and the icons on the Dog Sitting Page were taken from [Font Awesome](http.s//fontawesome.com)
+<br>
+<br>
+
+
+#### MEDIA
+<br>
+-All images are taken from the free image site [Unsplash](https://unsplash.com/)
+
+
 
 
