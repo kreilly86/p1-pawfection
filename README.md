@@ -15,13 +15,16 @@ Pawfection is aimed at dog owners in the Galway area, who may feel unsure and st
 
 ### Existing Features
 <hr>
-<br>
 <hr>
 
 #### LOGO
 <hr>
 <br>
-I made the logo using Canva with this [Logo Template](https://www.canva.com/templates/EAEmw6OtL8Q-pet-shelter-logo/). I chose colors that would be warm, and contrast well agaist each other. The logo is also a clickable link to bring the user back to the homepage.
+I made the logo using Canva with this:
+
+[Logo Template](https://www.canva.com/templates/EAEmw6OtL8Q-pet-shelter-logo/).
+
+ The colors are warm and inviting, and are also used throughout the site. The logo is intuitive as it is also a clickable link to bring the user back to the homepage.
 <br>
 <br>
 <hr>
@@ -82,6 +85,7 @@ The About Us, Dog Sitting, and Testimonials pages have a simple design layout wi
 - One for a gold colored text box.
 <br>
 - One for the accompanying image.
+<br>
 <br>
 For ease of use the display: flex layout is used so that each of these pages can be efficiently targeted for responsiveness.
 <br>
@@ -153,8 +157,12 @@ The send button is styled with a hover psuedo class, so the experience is more i
 
 ### FEATURES LEFT TO IMPLEMENT
 <hr>
-I would like to change the navigation bar when the site is used on another device. Rather than have the menu shrink in size and move underneath the logo, I want to implement a hamburger mobile menu so that the user can easily hover over and see all of the navigation links. This would make the mobile design more sleek and polished.
+I would like to change the navigation bar when the site is used on a smaller device. Rather than have the menu shrink in size and move underneath the logo, I want to implement a hamburger mobile menu so that the user can easily hover over and see all of the navigation links. This would make the mobile design more sleek and polished. (example below from WSSchools)
 <br>
+<br>
+
+<img src="assets/images/mobile-nav-sshot.png">
+
 <hr>
 
 ### TESTING
@@ -192,24 +200,48 @@ In the GitHub repository, navigate to the Settings tab
 and click on'Pages'. Select the Main Branch. Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 <br>
 <br>
-The live link can be found here [Pawfection](https://kreilly86.github.io/p1-pawfection)
-<br>
+The live link can be found here 
+
+[Pawfection](https://kreilly86.github.io/p1-pawfection)
+
 <hr>
 
 ### CREDITS
 <hr>
+Throughout the project I made use of tutorials and advice from the following websites:
+<br>
+<br>
+
+*   [Code Institute](https://codeinstitute.net)
+
+*   [W3Schools](https://www.w3schools.com/)
+
+*   [Codecademy](https://www.codecademy.com/)
+*   []
+
+<br>
 <br>
 
 #### CONTENT
 <br>
--The social media icons used in the footer, and the icons on the Dog Sitting Page were taken from [Font Awesome](http.s//fontawesome.com)
-<br>
-<br>
+-The social media icons used in the footer, and the icons on the Dog Sitting Page were taken from 
 
+[Font Awesome](http.s//fontawesome.com)
+<br>
+<br>
+- The fonts I used in my site were Roboto Condensed, and Poppins which I took from Google Fonts.
+<br>
+<br>
+- I tested the site color scheme using contrast grid from 
+[Eight Shapes](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%230396a6%0D%0A%23f0efec%0D%0A%23590817%0D%0A%23f19820%0D%0A%23434248%0D%0A%2303515D%0D%0A%23154D5C%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A&es-color-form__tile-size=regular&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp)
+<br>
+<br>
 
 #### MEDIA
 <br>
--All images are taken from the free image site [Unsplash](https://unsplash.com/)
+-All images are taken from the free image site 
+
+[Unsplash](https://unsplash.com/)
 
 
 
