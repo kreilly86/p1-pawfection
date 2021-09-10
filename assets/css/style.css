@@ -308,22 +308,28 @@ footer {
 }
 
 #f-name {
-    font-size: 120%;
+    font-size: 95%;
     float: left;
     padding: 5px;
 }
 
 #l-name {
-    font-size: 120%;
+    font-size: 95%;
     float: left;
     padding: 5px;
 }
 
 #email-address {
-    font-size: 120%;
+    font-size: 95%;
     padding: 5px;
     margin-bottom: 15px;
     float: left;
+}
+
+#contact-note {
+    font-size: 80%;
+    font-weight: 100;
+    font-style: italic;
 }
 
 .input {

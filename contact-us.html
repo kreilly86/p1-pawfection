@@ -51,13 +51,13 @@
             <form action="https://formdump.codeinstitute.net/" method="post" target=_blank class="contact-form">
 
                 <span id="f-name">
-                    <label for="first-name">First Name</label>
+                    <label for="first-name">First Name*</label>
                     <br>
                     <input type="text" required name="first-name" id="first-name" class="input">
                 </span>
 
                 <span id="l-name">
-                    <label for="last-name">Last Name</label>
+                    <label for="last-name">Last Name*</label>
                     <br>
                     <input type="text" required name="last-name" id="last-name" class="input">
                 </span>
@@ -66,7 +66,7 @@
                 <br>
                 <br>
                 <span id="email-address">
-                    <label for="email">Email</label>
+                    <label for="email">Email*</label>
                     <br>
                     <input type="email" required id="email" name="email" class="input">
                 </span>
@@ -77,10 +77,13 @@
                 <br>
                 <br>
                 <br>
-                <label for="message">YOUR MESSAGE *Where possible message at least two weeks in
-                    advance of your required sitting dates.</label>
+                <label for="message">YOUR MESSAGE*</label>
                 <textarea name="message" id="message" class="message" rows="20" cols="50">
             </textarea>
+                <div id="contact-note">Where possible message at least two weeks in
+                    advance of your required sitting dates.
+                </div>
+                <br>
                 <br>
                 <span>
                     <input type="submit" value="Send" class="send">
