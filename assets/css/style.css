@@ -194,6 +194,11 @@ footer {
     transform: scale(0.8);
 }
 
+.image-blue-box > img {
+    margin-left: 0vw;
+    width: 100%:
+}
+
 .container-2 {
     display: flex;
     flex-direction: row-reverse;
@@ -218,6 +223,12 @@ footer {
     width: 100%;
     transform: scale(0.8);
 }
+
+.image-gold-box > img {
+    margin-left: 0vw;
+    width: 100%:
+}
+
 
 #dog1 {
     width: 480px;
@@ -793,22 +804,21 @@ footer {
     margin: 0px;
 
 }
-     
+
 .main-title {
         font-size: 90%;
     }
-
 
     .hl {
         display: none;
     }
     
     #interested {
-        margin-left: 200px;
+        margin-left: 130px;
     }
     
     #button-for-contact{
-        margin-left: 200px;
+        margin-left: 130px;
     }
 
 .container-1 {
