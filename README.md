@@ -209,7 +209,7 @@ All social media links in the footer have been tested, and open in a seperate ta
 
 - <strong>Links and form button</strong>
 <br>
-<br>
+
 -All internal links have been tested and work. There is a button at the bottom of the dog sitting page which takes the user directly to the contact page, it is working correctly.
 <br>
 <br>
@@ -350,7 +350,9 @@ I also used Youtube tutorials to impliment aspects of the site:
 <br>
 <br>
 - I tested the site color scheme using contrast grid from 
+
 [Eight Shapes](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%230396a6%0D%0A%23f0efec%0D%0A%23590817%0D%0A%23f19820%0D%0A%23434248%0D%0A%2303515D%0D%0A%23154D5C%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A&es-color-form__tile-size=regular&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp)
+
 <br>
 <br>
 
