@@ -242,7 +242,12 @@ At present I have tried to decrease the space but this causes issues on other pa
 -<strong>Favicon Error</strong>
 <br>
 <br>
-When I tested my site on Dev tools I recieved an error that the favicon could not load. 
+When I tested my site on Dev tools I recieved an error that the favicon could not load. I used 
+
+[favicon.cc] (https://www.favicon.cc/?) 
+to make a favicon, and added it to my index.html head.
+<br>
+<br>
 
 
 
