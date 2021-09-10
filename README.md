@@ -14,8 +14,7 @@ Pawfection is aimed at dog owners in the Galway area, who may feel unsure and st
 <hr>
 
 ### Existing Features
-<hr>
-<hr>
+<br>
 
 #### LOGO
 <hr>
@@ -27,7 +26,6 @@ I made the logo using Canva with this:
  The colors are warm and inviting, and are also used throughout the site. The logo is intuitive as it is also a clickable link to bring the user back to the homepage.
 <br>
 <br>
-<hr>
 
 #### NAVIGATION BAR
 <hr>
@@ -42,7 +40,6 @@ The navigation bar has a bottom border style applied to show the user which page
 
 <br>
 <br>
-<hr>
 
 #### BACKGROUND IMAGE
 <hr>
@@ -53,7 +50,6 @@ The  Home Page background shows a dog sleeping on it's owners bed with a transpa
 
 <br>
 <br>
-<hr>
 
 #### FOOTER
 <hr>
@@ -67,7 +63,7 @@ On the right social media links are displayed and the links will open in a new t
 
 <br>
 <br>
-<hr>
+
 
 #### FLEX DISPLAY IMAGES WITH TEXT BOXES
 <hr>
@@ -94,8 +90,6 @@ For ease of use the display: flex layout is used so that each of these pages can
 <br>
 <br>
 
-<hr>
-
 #### THE ABOUT US PAGE
 <hr>
 <br>
@@ -105,7 +99,6 @@ The About us page gives a short description of how the business was formed, i.e 
 There is also a section on the business ethos which further highlights the uniqueness of the business.
 <br>
 <br>
-<hr>
 
 #### DOG SITTING PAGE
 <hr>
@@ -122,8 +115,8 @@ At the bottom of the Dog Sitting page there is a gold colored horizontal rule to
 <br>
 <br>
 <img src="assets/images/interested-button-sshot.png">
-
-<hr>
+<br>
+<br>
 
  #### TESTIMONIALS PAGE
  <hr>
@@ -131,7 +124,7 @@ At the bottom of the Dog Sitting page there is a gold colored horizontal rule to
 The Testimonials page offers two reviews from satisfied customers, and covers both options of dog sitting, in the owners' home and in a staff members' home.
 <br>
 <br>
-<hr>
+
 
 #### CONTACT US PAGE
 <hr>
@@ -169,10 +162,20 @@ I would like to change the navigation bar when the site is used on a smaller dev
 <hr>
 <br>
 
-/* input testing information here */
-
+- <strong>Navigation bar</strong>
 <br>
-<hr>
+The navigation bar is fully functional. The links have all been tested on both desktop and mobile devices, and from all pages.
+<br>
+<br>
+The logo also works as a link to bring the user back to the home page.
+<br>
+<br>
+The navigation bar does alter position and falls under the logo on smaller devices, but is in keeping with the style of the site, and contains the same class styling.
+<br>
+<br>
+- <strong>Footer</strong>
+<br>
+The footer has absolute positioning
 
 #### VALIDATOR TESTING
 <hr>
