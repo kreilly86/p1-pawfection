@@ -23,6 +23,9 @@ I made the logo using Canva with this:
 
 [Logo Template](https://www.canva.com/templates/EAEmw6OtL8Q-pet-shelter-logo/).
 
+<br>
+<img src="assets/images/logo.png">
+
  The colors are warm and inviting, and are also used throughout the site. The logo is intuitive as it is also a clickable link to bring the user back to the homepage.
 <br>
 <br>
@@ -155,8 +158,16 @@ I would like to change the navigation bar when the site is used on a smaller dev
 <br>
 
 <img src="assets/images/mobile-nav-sshot.png">
+<br>
 
+#### IMAGE AND TEXT HOVER
 <hr>
+<br>
+I would like to develop my mobile size design for the site. I would use a feature of having the images display the text information when the user hovers over them. This would be a more sophisticated way of displaying the information, rather than the current scrolling from image to text box, to image etc.
+
+<br>
+<hr>
+
 
 ### TESTING
 <hr>
@@ -242,9 +253,8 @@ At present I have tried to decrease the space but this causes issues on other pa
 -<strong>Favicon Error</strong>
 <br>
 <br>
-When I tested my site on Dev tools I recieved an error that the favicon could not load. I used 
-
-[favicon.cc] (https://www.favicon.cc/?) 
+When I tested my site on Dev tools I recieved an error that the favicon could not load. I used
+[favicon.cc](https://www.favicon.cc/?) 
 to make a favicon, and added it to my index.html head.
 <br>
 <br>
@@ -276,10 +286,10 @@ The site was deployed to GitHub pages. The steps to deploy are the following:
 <br>
 <br>
 In the GitHub repository, navigate to the Settings tab
-and click on'Pages'. Select the Main Branch. Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+and click on'Pages'. Select the Main Branch. Once the main branch has been selected, the page will automatically be refreshed with a detailed ribbon display to indicate the successful deployment.
 <br>
 <br>
-The live link can be found here 
+The live link can be found here: 
 
 [Pawfection](https://kreilly86.github.io/p1-pawfection)
 
@@ -296,15 +306,27 @@ Throughout the project I made use of tutorials and advice from the following web
 *   [W3Schools](https://www.w3schools.com/)
 
 *   [Codecademy](https://www.codecademy.com/)
-*   []
+<br>
+<br>
+
+I also used Youtube tutorials to impliment aspects of the site:
 
 <br>
+
+* [Responsive Layout](https://www.youtube.com/watch?v=S0a7PEOi0do)
+
+* [Flexbox in 20 minutes ](https://www.youtube.com/watch?v=JJSoEo8JSnc)
+
+* [How to draw a line Hl or Vl](https://www.youtube.com/watch?v=48rZ_gNKxz0)
+
+
+
 <br>
 
 #### CONTENT
 <br>
--The social media icons used in the footer, and the icons on the Dog Sitting Page were taken from 
 
+- The social media icons used in the footer, and the icons on the Dog Sitting Page were taken from 
 [Font Awesome](http.s//fontawesome.com)
 <br>
 <br>
