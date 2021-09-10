@@ -41,8 +41,7 @@ h3 {
     display: inline-block;
 }
 
-#menu,
-.paw-logo {
+#menu, #paw-logo {
     line-height: 150px;
 }
 
@@ -230,23 +229,19 @@ footer {
     transform: scale(0.8);
 }
 
-
-
 /* dog sitting info page */
-
-
 
 .house-icon i {
     color: #590817;
     padding-right: 5px;
 }
 
-.hl {
+#hl {
     border-bottom: 2px solid #f19820;
     width: 80%;
     padding: 0;
     top: 250px;
-    margin-left: 75px;
+    margin-left: 10%;
     display: block;
 }
 
@@ -278,7 +273,7 @@ footer {
 }
 
 /* testimonial page */
-/* repeated class selectors to display content in flex*/
+/* repeated class selectors used to display content in flex*/
 
 
 /* contact page */
