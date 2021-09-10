@@ -419,8 +419,7 @@ footer {
     }
 
     #background-image {
-
-        overflow: visible;
+        overflow: hidden;
     }
 
     /* about us dog sitting and testimonial pages */
@@ -516,7 +515,6 @@ footer {
         margin-bottom: 10px;
     }
 
-
     #intro-text {
         margin: 75px 10px 0px 50px;
         clear: left;
@@ -524,7 +522,7 @@ footer {
     }
 
     #background-image {
-        overflow: visible;
+        overflow: hidden;
         background-position: center;
     }
 
@@ -664,7 +662,6 @@ footer {
     #button-for-contact {
         margin-left: 300px;
     }
-
 
     .container-1 {
         display: flex;
