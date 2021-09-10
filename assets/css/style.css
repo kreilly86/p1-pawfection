@@ -24,7 +24,7 @@ h3 {
 
 #paw-logo {
     float: left;
-    margin: 20px 30px 0px 60px;
+    margin: 0;
     padding: 0;
     transform: scale(0.9);
 }
@@ -35,7 +35,7 @@ h3 {
 }
 
 #menu {
-    font-size: larger;
+    font-size: large;
     letter-spacing: 2px;
     padding: 0;
     margin-left: 35px;
@@ -436,7 +436,6 @@ footer {
     #button-for-contact {
         margin-left: 450px;
     }
-
 
     .container-1 {
         display: flex;

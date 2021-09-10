@@ -99,9 +99,10 @@ For ease of use the display: flex layout is used so that each of these pages can
 The About us page gives a short description of how the business was formed, i.e that it met a need in the market for alternatives to dog kennels. For potential customers this information is vital so they are aware of the type of service provided.
 <br>
 <br>
-There is also a section on the business ethos which further highlights the uniqueness of the business.
+There is also a section on the business ethos which further highlights the uniqueness of the business. The images show happy dogs and help to make the user feel like their dog can be trusted under the car of Pawfection.
 <br>
 <br>
+<img src="assets/images/about-us-sshot.png">
 
 #### DOG SITTING PAGE
 <hr>
@@ -114,6 +115,12 @@ The Dog Sitting page utilizes the simple image and text box display to seperate 
 - Dog sitting in one of the Pawfections staffs' homes.
 <br>
 <br>
+<img src="assets/images/dog-sitting-sshot.png">
+<br>
+<br>
+The information is simple and covers some main concerns and questions a potential customer may have. Will my dog be happy and safe in your care? The options of care and the opportunity presented to meet staff beforehand brings a sense of trustworthiness.
+<br>
+<br>
 At the bottom of the Dog Sitting page there is a gold colored horizontal rule to divide the main content from an additional feature. This feature is an internal link button that takes the user to the contact page. This makes it quick for the user to submit a dog sitting request once they have just read about the services provided
 <br>
 <br>
@@ -124,7 +131,10 @@ At the bottom of the Dog Sitting page there is a gold colored horizontal rule to
  #### TESTIMONIALS PAGE
  <hr>
 <br>
-The Testimonials page offers two reviews from satisfied customers, and covers both options of dog sitting, in the owners' home and in a staff members' home.
+The Testimonials page offers two reviews from satisfied customers, and covers both options of dog sitting, in the owners' home and in a staff members' home. The images and stories highlight the users satisfaction with the service.
+<br>
+<br>
+<img src="assets/images/testimony-sshot.png">
 <br>
 <br>
 
@@ -141,7 +151,7 @@ There is a contact form included on the site for potential customers to submit a
 The form only allows the user to hit send once all fields are completed, and the name and email fields will only accept text or email format as requested.
 <br>
 <br>
-The send button is styled with a hover psuedo class, so the experience is more interactive for the user.
+The send button is styled with a hover pseudo class, so the experience is more interactive for the user.
 <br>
 <br>
 <img src="assets/images/send-sshot.png">
@@ -210,7 +220,6 @@ All social media links in the footer have been tested, and open in a seperate ta
 #### LAYOUT TESTING
 
 <hr>
-<br>
 The various parts of the site were tested for responsiveness using Devtools in Google Chrome. I had to make some significant layout changes to accomodate this. The site was designed in a deskptop first manner, so it was a struggle to make it work on smaller devices.
 <br>
 <br>
@@ -236,8 +245,6 @@ The footer was tested for responsiveness, and at the smaller device level the so
 #### BUGS AND ISSUES
 <hr>
 <br>
-<br>
-
 One major layout issue I have encountered is working with flex display. For my About Us, Dog Sitting and Testmonials pages I created class attributes so I could apply the style to all 3 pages rather than code seperate layouts for each page. It has been challenging to make the layout work as one page includes landscape images, and the other two use portrait. 
 <br>
 <br>
@@ -277,6 +284,15 @@ CSS
 -No issues were returned when passing through the official [(Jigsaw)validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fkreilly86.github.io%2Fp1-pawfection%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 <br>
 <br>
+ACCESSIBILITY 
+<br>
+<br>
+I used lighthouse in google chrome to test the site and made sure the site passes accessiblity markers.
+<br>
+<br>
+
+<img src="assets/images/accessibility-sshot.png">
+
 <hr>
 
 ### DEPLOYMENT
@@ -343,6 +359,21 @@ I also used Youtube tutorials to impliment aspects of the site:
 -All images are taken from the free image site 
 
 [Unsplash](https://unsplash.com/)
+<br>
+<br>
+<hr>
+
+#### CODE
+<hr>
+<br>
+Code for the send button, and link button to contact page styling was taken from Code Institute's 
+
+[Love Running Project](https://learn.codeinstitute.net/sandbox/api/challenges/601194c939e147dad663b867/files/signup.html)
+<br>
+<br>
+The code for the social media links in the footer was taken from Code Institute's 
+[Love Running Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/e6d4cda2bc08458ba94d2092be9bad3a/)
+
 
 
 
