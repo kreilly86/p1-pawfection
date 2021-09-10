@@ -177,11 +177,11 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 95%;
     padding: 0;
     margin-bottom: o;
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .textbox-blue {
@@ -193,7 +193,8 @@ footer {
     font-size: 100%;
     padding: 75px;
     text-align: left;
-    margin-left: 20px;
+    margin-left: 0px;
+    margin-right: 10px;
 }
 
 .image-blue-box {
@@ -209,7 +210,7 @@ footer {
     width: 100%;
     padding: 0;
     margin-bottom: 0px;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-right: 10px;
 }
 
@@ -222,7 +223,8 @@ footer {
     font-size: 100%;
     padding: 75px;
     text-align: left;
-    margin-right: 20px;
+    margin-right: 40px;
+    margin-left: 0;
 }
 
 .image-gold-box {

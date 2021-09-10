@@ -164,18 +164,89 @@ I would like to change the navigation bar when the site is used on a smaller dev
 
 - <strong>Navigation bar</strong>
 <br>
-The navigation bar is fully functional. The links have all been tested on both desktop and mobile devices, and from all pages.
+<br>
+-The navigation bar is fully functional. The links have all been tested on both desktop and mobile devices, and from all pages.
 <br>
 <br>
-The logo also works as a link to bring the user back to the home page.
+-The logo also works as a link to bring the user back to the home page.
 <br>
 <br>
-The navigation bar does alter position and falls under the logo on smaller devices, but is in keeping with the style of the site, and contains the same class styling.
+-The navigation bar does alter position and falls under the logo on smaller devices, but is in keeping with the style of the site, and contains the same class styling.
 <br>
 <br>
 - <strong>Footer</strong>
 <br>
-The footer has absolute positioning
+<br>
+-The footer has absolute positioning and remains in place the bottom of all pages, and all all screen sizes. This has been tested on mobile and desktop.
+<br>
+<br>
+-When I first started working on the home page I had various issues with positioning, and tried a fixed position for the footer. I also tried relative and absolute switching back and forth between the rest of the content, but found the footer floated half way up the page. Finally I was able to use absolute positioning and a defined height and margin-bottom to ensure the footer remained in position and cleared the rest of the page content without any gaps.
+<br>
+All social media links in the footer have been tested, and open in a seperate tab.
+<br>
+<br>
+
+- <strong>Links and form button</strong>
+<br>
+<br>
+-All internal links have been tested and work. There is a button at the bottom of the dog sitting page which takes the user directly to the contact page, it is working correctly.
+<br>
+<br>
+-At first the send button on the contact form was sending the user to the Code Institute form dump page and taking them out of the site, but I changed this in the code to open a new tab.
+<br>
+<br>
+
+#### LAYOUT TESTING
+
+<hr>
+<br>
+The various parts of the site were tested for responsiveness using Devtools in Google Chrome. I had to make some significant layout changes to accomodate this. The site was designed in a deskptop first manner, so it was a struggle to make it work on smaller devices.
+<br>
+<br>
+-<strong>Home Page</strong>
+<br>
+The home page had to be restructured for small devices, and the background cover image was brought to the center. I tested using a width property of 100vw on the image at mobile level but this left huge gaps of background showing, and wasn't consistent with the site. I moved the overlay text from the left position to the right to accomodate a better view and perception of the background image.
+<br>
+<br>
+<img src="assets/images/mobile-homepage-sshot.png">
+<br>
+<br>
+-<strong>Footer</strong>
+<br>
+<br>
+The footer was tested for responsiveness, and at the smaller device level the social media icons feel below the footer creating grey background space. I resized the social media icons, and reduced the font size of the footer text. The layout works on mobile devices slightly differently with the social media icon links falling below the contact and hours information.
+<br>
+<br>
+<img src="assets/images/footer-mobile-sshot.png">
+<br>
+<br>
+<hr>
+
+#### BUGS AND ISSUES
+<hr>
+<br>
+<br>
+
+One major layout issue I have encountered is working with flex display. For my About Us, Dog Sitting and Testmonials pages I created class attributes so I could apply the style to all 3 pages rather than code seperate layouts for each page. It has been challenging to make the layout work as one page includes landscape images, and the other two use portrait. 
+<br>
+<br>
+I created two containers, one that holds one image and a gold coloured text box beside it, and the other that holds one image and a blue coloured text box beside it. To make the layout more interesting I decided to inverse the order of image and text betweem the two containers, this meant using the property 'flex-flow: row reverse' on the second container. Overall I prefer this layout but it has cause some issues with differences in margin and space. It mostly effects the about us page as seen here, there is a big space between the bottom image and text:
+<br>
+<br>
+<img src="assets/images/about-issue-sshot.png">
+<br>
+
+At present I have tried to decrease the space but this causes issues on other pages. I have decided to keep the layout as I prefer how it looks on the other pages, rather than having a uniform two text boxes and two images aligned vertically. If there was more time I would like to refine this layout and learn more about using flex, and flexboxes.
+<br>
+<br>
+-<strong>Favicon Error</strong>
+<br>
+<br>
+When I tested my site on Dev tools I recieved an error that the favicon could not load. 
+
+
+
+
 
 #### VALIDATOR TESTING
 <hr>
