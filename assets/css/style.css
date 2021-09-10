@@ -165,10 +165,11 @@ footer {
     text-transform: uppercase;
     font-size: 120%;
     color: #f19820;
-    width: 100vw;
-    margin: 100px 50% 50px 50%;
-    padding: 0;
+    margin-top: 150px;
+    text-align: center;
+    padding-bottom: 100px;
 }
+
 /* about us page */
 
 
@@ -178,7 +179,7 @@ footer {
     align-items: center;
     width: 100%;
     padding: 0;
-    margin-bottom: 50px;
+    margin-bottom: o;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -186,14 +187,13 @@ footer {
 .textbox-blue {
     flex-flow: row;
     color: #f0efec;
+    font-family: Poppins, sans-serif;
     background-color: rgba(3, 150, 166, .4);
     border-radius: 10px;
-    font-family: Poppins, sans-serif;
     font-size: 100%;
     padding: 75px;
     text-align: left;
     margin-left: 20px;
-    margin-right: 10px;
 }
 
 .image-blue-box {
@@ -203,13 +203,14 @@ footer {
 
 .container-2 {
     display: flex;
-    flex-direction: row-reverse;
+    flex-flow: row-reverse;
     align-items: center;
     justify-content: center;
     width: 100%;
     padding: 0;
     margin-bottom: 0px;
-
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .textbox-gold {
@@ -229,6 +230,9 @@ footer {
     transform: scale(0.8);
 }
 
+#dogs {
+    padding: 0;
+}
 
 
 /* dog sitting info page */
@@ -335,8 +339,8 @@ footer {
     margin-left: 0px;
 }
 
-.input:hover,
-.message:hover {
+#input:hover,
+#message:hover {
     border: 1px solid rgba(241, 152, 32, .6);
     background-color: rgba(240, 239, 236, 0.7);
 }
