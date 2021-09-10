@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Condensed:wght@400&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: none;
@@ -13,51 +13,54 @@ body {
     background-color: #434248;
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
     font-family: Roboto Condensed, sans-serif;
     font-weight: 400;
 }
 
 /* header and navigation */
- 
+
 #paw-logo {
-    float: left;  
+    float: left;
     margin: 20px 30px 0px 60px;
-    padding: 0; 
+    padding: 0;
 }
 
-#paw-logo > img {
+#paw-logo>img {
     height: 280px;
     width: 280px;
 }
 
-#menu { 
+#menu {
     font-size: larger;
     letter-spacing: 2px;
     padding: 0;
     margin-left: 35px;
-    display: inline-block; 
+    display: inline-block;
 }
 
-#menu, .paw-logo {
+#menu,
+.paw-logo {
     line-height: 150px;
 }
 
 #menu li {
-    display: inline-block; 
+    display: inline-block;
     list-style-type: none;
-    text-align: center; 
+    text-align: center;
     margin: 50px 0 25px 25px;
 }
 
 #menu a {
     text-decoration: none;
-    color: inherit; 
+    color: inherit;
     text-align: center;
 }
 
 #menu a:hover {
-    background-color: rgba(241,152,32,.6);
+    background-color: rgba(241, 152, 32, .6);
     border-bottom: 1px solid #F0EFEC;
 }
 
@@ -74,7 +77,7 @@ h1,h2,h3 {
     overflow: hidden;
 }
 
-/* intro text overlay */ 
+/* intro text overlay */
 
 #intro-text {
     color: #F0EFEC;
@@ -82,10 +85,10 @@ h1,h2,h3 {
     font-size: 110%;
     width: 400px;
     height: 300px;
-    
+
     padding: 30px 30px 30px 30px;
     text-align: center;
-    
+
     background-color: rgba(21, 77, 92, 0.7);
     border: 1px solid #154D5C;
     border-radius: 10px 10px 10px 10px;
@@ -108,12 +111,12 @@ footer {
     display: block;
 }
 
-.social-links i{
+.social-links i {
     font-size: 200%;
     color: #0396a6;
     margin: 100px 50px 0px 0px;
-    padding: 0; 
-    float: right; 
+    padding: 0;
+    float: right;
 }
 
 #times {
@@ -160,7 +163,7 @@ footer {
 .main-title {
     text-transform: uppercase;
     font-size: 130%;
-    color:#f19820;
+    color: #f19820;
 
     margin-top: 100px;
     text-align: center;
@@ -184,7 +187,7 @@ footer {
 .textbox-blue {
     flex-flow: row;
     color: #f0efec;
-    background-color: rgba(3,150,166,.4);
+    background-color: rgba(3, 150, 166, .4);
     border-radius: 10px;
     font-family: Poppins, sans-serif;
     font-size: 100%;
@@ -207,14 +210,14 @@ footer {
     width: 100%;
     padding: 0;
     margin-bottom: 0px;
-   
+
 }
 
 .textbox-gold {
     flex-flow: row;
     color: #F0EFEC;
     font-family: Poppins, sans-serif;
-    background-color: rgba(241,152,32,.4);
+    background-color: rgba(241, 152, 32, .4);
     border-radius: 10px;
     font-size: 100%;
     padding: 75px;
@@ -233,8 +236,8 @@ footer {
 
 
 
-.house-icon i{
-    color:#590817;
+.house-icon i {
+    color: #590817;
     padding-right: 5px;
 }
 
@@ -244,7 +247,7 @@ footer {
     padding: 0;
     top: 250px;
     margin-left: 75px;
-    display: block;  
+    display: block;
 }
 
 #interested {
@@ -253,19 +256,19 @@ footer {
 }
 
 #button-for-contact {
-   margin: 0 0 0 50%;
-   padding: 5px 0px 50px 0px;
+    margin: 0 0 0 50%;
+    padding: 5px 0px 50px 0px;
 
 }
 
 #button-for-contact a {
     font-family: Poppins, sans-serif;
     font-size: 130%;
-    color:#F0EFEC;
+    color: #F0EFEC;
     padding: 10px 10px 10px 10px;
     border: solid 1px #F0EFEC;
     background-color: #03515D;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 #button-for-contact a:hover {
@@ -275,7 +278,7 @@ footer {
 }
 
 /* testimonial page */
-/* repeated class selectors to display content in flex boxes */
+/* repeated class selectors to display content in flex*/
 
 
 /* contact page */
@@ -289,7 +292,7 @@ footer {
     flex-flow: row-reverse;
 }
 
-.thank-you-dog > img { 
+.thank-you-dog>img {
     transform: scale(0.8);
     margin: 0;
 }
@@ -299,7 +302,7 @@ footer {
     height: fit-content;
     margin: 0;
     color: #f0efec;
-    background-color: rgba(3,150,166,.4);
+    background-color: rgba(3, 150, 166, .4);
     border: 1px solid #f19820;
     padding: 40px;
 }
@@ -320,28 +323,29 @@ footer {
     font-size: 120%;
     padding: 5px;
     margin-bottom: 15px;
-    float: left; 
+    float: left;
 }
 
 .input {
     border: 1px solid #F0EFEC;
     width: 90%;
     height: 20px;
-    color:#F0EFEC;
+    color: #F0EFEC;
     font-size: 105%;
     padding: 5px;
     background: transparent;
     border-radius: 2px;
     margin-bottom: 10px;
     margin-left: 0px;
- }
+}
 
- .input:hover, .message:hover {
-    border: 1px solid rgba(241,152,32,.6);
-    background-color: rgba(240, 239, 236, 0.7); 
- }
+.input:hover,
+.message:hover {
+    border: 1px solid rgba(241, 152, 32, .6);
+    background-color: rgba(240, 239, 236, 0.7);
+}
 
- #message {
+#message {
     width: 100%;
     height: 400px;
     font-family: inherit;
@@ -352,34 +356,34 @@ footer {
     border-radius: 2px;
     background-color: #F0EFEC;
     resize: none;
- }
+}
 
- #message {
+#message {
     float: left;
- }
+}
 
- .send {
+.send {
     font-family: Poppins, sans-serif;
     font-size: 130%;
-    color:#F0EFEC;
+    color: #F0EFEC;
     padding: 10px 10px 10px 10px;
     border: solid 1px #F0EFEC;
     background-color: #03515D;
     text-decoration: none;
     margin: 10px 0 0 0;
- }
+}
 
- .send:hover {
-     border: solid 1px #f19820;
-     background-color: #F0EFEC;
-     color: #03515D;
- }
- 
- /* media quieries */
+.send:hover {
+    border: solid 1px #f19820;
+    background-color: #F0EFEC;
+    color: #03515D;
+}
+
+/* media quieries */
 
 /* for larger to medium screens sizes 1128px wide and down  */
 
- /* home page */
+/* home page */
 
 @media screen and (max-width: 1128px) {
 
@@ -389,90 +393,92 @@ footer {
         padding: 0;
         line-height: 5px;
     }
- 
+
     #menu {
-         font-size: medium;
-         padding: 0;
-         margin-top: 5px;
-         margin-left: 0px;
-         margin-bottom: 10px;     
- }
-
-#menu li {
-        display:inline-block;
+        font-size: medium;
+        padding: 0;
+        margin-top: 5px;
+        margin-left: 0px;
+        margin-bottom: 10px;
     }
- 
- #intro-text {
-         margin-bottom: 50px;
- }
- 
- #background-image {
-        
-     overflow: visible;
- }
 
- /* about us dog sitting and testimonial pages */
+    #menu li {
+        display: inline-block;
+    }
 
-.info-pages {
-    margin-bottom: 50px;
-}
+    #intro-text {
+        margin-bottom: 50px;
+    }
 
- #interested {
-    margin-left: 450px;
-}
+    #background-image {
 
-#button-for-contact{
-    margin-left: 450px;
-}
+        overflow: visible;
+    }
+
+    /* about us dog sitting and testimonial pages */
+
+    .info-pages {
+        margin-bottom: 50px;
+    }
+
+    #interested {
+        margin-left: 450px;
+    }
+
+    #button-for-contact {
+        margin-left: 450px;
+    }
 
 
-.container-1 {
-    display: flex;
-    flex-flow: wrap;
-    width: 80%;
-}
-.container-1 > * {
-    padding: 50px; 
-}
+    .container-1 {
+        display: flex;
+        flex-flow: wrap;
+        width: 80%;
+    }
 
-.textbox-blue {
-    order: 1;
-    border-radius: 10px;
-}
+    .container-1>* {
+        padding: 50px;
+    }
 
-.image-blue-box {
-    order: 2;
-    justify-content: flex-start;
-}
+    .textbox-blue {
+        order: 1;
+        border-radius: 10px;
+    }
 
-.container-2 {
-    display: flex;
-    flex-flow: row wrap;
-    width: 80%;
-}
-.container-2 > * {
-    padding: 50px; 
-}
+    .image-blue-box {
+        order: 2;
+        justify-content: flex-start;
+    }
 
-.textbox-gold {
-    order: 1;
-    border-radius: 10px;
-}
+    .container-2 {
+        display: flex;
+        flex-flow: row wrap;
+        width: 80%;
+    }
 
-.image-gold-box {
-    order: 2;
-    justify-content: flex-start;
-}
+    .container-2>* {
+        padding: 50px;
+    }
 
-/* contact us page */
+    .textbox-gold {
+        order: 1;
+        border-radius: 10px;
+    }
 
-.contact {
-    display: flex;
-    flex-flow: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    width: 100%;
-}
+    .image-gold-box {
+        order: 2;
+        justify-content: flex-start;
+    }
+
+    /* contact us page */
+
+    .contact {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+    }
 
 }
 
@@ -481,93 +487,95 @@ footer {
 /* home page */
 
 @media screen and (max-width: 920px) {
-    
-#paw-logo {
-    transform: scale(0.8);
-    margin: 0;
-    padding: 0;
-    line-height: 5px;
-}
 
-#menu, #paw-logo {
-    line-height: 0px;
-}
+    #paw-logo {
+        transform: scale(0.8);
+        margin: 0;
+        padding: 0;
+        line-height: 5px;
+    }
 
- #menu {
-     font-size: medium;
-     width: 100%;
-     padding: 0;
-     margin-top: 0px;
-     margin-left: 5px;
-     margin-bottom: 10px;       
-}
+    #menu,
+    #paw-logo {
+        line-height: 0px;
+    }
 
- 
-#intro-text {
-    margin: 75px 10px 0px 50px;
-    clear: left;
+    #menu {
+        font-size: medium;
+        width: 100%;
+        padding: 0;
+        margin-top: 0px;
+        margin-left: 5px;
+        margin-bottom: 10px;
+    }
 
-}
 
- #background-image {
- overflow: visible;
- background-position: center;
-}
+    #intro-text {
+        margin: 75px 10px 0px 50px;
+        clear: left;
 
-  /* about us, dog sitting and testimonial pages */
+    }
 
-  .info-pages {
-      margin-bottom: 50px;
-  }
-     
-  .main-title {
-    font-size: 110%;
-}
+    #background-image {
+        overflow: visible;
+        background-position: center;
+    }
 
-#interested {
-    margin-left: 350px;
-}
+    /* about us, dog sitting and testimonial pages */
 
-#button-for-contact{
-    margin-left: 350px;
-}
+    .info-pages {
+        margin-bottom: 50px;
+    }
 
- .container-1 {
-    display: flex;
-    flex-flow: row wrap;
-    width: 80%;
-}
-.container-1 > * {
-    padding: 25px; 
-}
+    .main-title {
+        font-size: 110%;
+    }
 
-.textbox-blue {
-    order: 1;
-    border-radius: 10px;
-}
+    #interested {
+        margin-left: 350px;
+    }
 
-.image-blue-box {
-    order: 2;
-    justify-content: center;
-}
+    #button-for-contact {
+        margin-left: 350px;
+    }
 
-.container-2 {
-    display: flex;
-    flex-flow: row wrap;
-}
-.container-2 > * {
-    padding: 25px; 
-}
+    .container-1 {
+        display: flex;
+        flex-flow: row wrap;
+        width: 80%;
+    }
 
-.textbox-gold {
-    order: 1;
-    border-radius: 10px;
-}
+    .container-1>* {
+        padding: 25px;
+    }
 
-.image-gold-box {
-    order: 2;
-}
+    .textbox-blue {
+        order: 1;
+        border-radius: 10px;
+    }
 
+    .image-blue-box {
+        order: 2;
+        justify-content: center;
+    }
+
+    .container-2 {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .container-2>* {
+        padding: 25px;
+    }
+
+    .textbox-gold {
+        order: 1;
+        border-radius: 10px;
+    }
+
+    .image-gold-box {
+        order: 2;
+    }
 }
 
 /* for medium screens 840px wide and down */
@@ -593,7 +601,7 @@ footer {
         margin: 50px 5px 25px 30px;
         padding: 0;
     }
-    
+
     .vl {
         border-left: 1px solid #f19820;
         height: 100px;
@@ -608,11 +616,12 @@ footer {
         display: block;
         clear: left;
     }
+
     .social-links i {
         font-size: 150%;
         margin: -100px 25px 100px 0px;
-        padding: 0; 
-        float: right; 
+        padding: 0;
+        float: right;
     }
 
     #contact-info {
@@ -621,7 +630,7 @@ footer {
     }
 
     /* about us, dog sitting and testimonial pages */
-     
+
     .info-pages {
         margin-bottom: 50px;
     }
@@ -633,63 +642,63 @@ footer {
     #interested {
         margin-left: 300px;
     }
-    
-    #button-for-contact{
+
+    #button-for-contact {
         margin-left: 300px;
     }
 
 
-.container-1 {
-    display: flex;
-}
+    .container-1 {
+        display: flex;
+    }
 
-.container-1 > * {
-    padding: 50px; 
-}
+    .container-1>* {
+        padding: 50px;
+    }
 
-.textbox-blue {
-    order: 1;
-    border-radius: 10px;
-}
+    .textbox-blue {
+        order: 1;
+        border-radius: 10px;
+    }
 
-.image-blue-box {
-    order: 2;
-    justify-content: center;
-}
+    .image-blue-box {
+        order: 2;
+        justify-content: center;
+    }
 
-.container-2 {
-    display: flex;
-}
+    .container-2 {
+        display: flex;
+    }
 
-.container-2 > * {
-    padding: 50px; 
-}
+    .container-2>* {
+        padding: 50px;
+    }
 
-.textbox-gold {
-    order: 1;
-}
+    .textbox-gold {
+        order: 1;
+    }
 
-.image-gold-box {
-    order: 2;
-}
+    .image-gold-box {
+        order: 2;
+    }
 
-/* contact us page */
+    /* contact us page */
 
-.contact {
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-}
+    .contact {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
 
-.contact-form {
-    height: fit-content;
-}
+    .contact-form {
+        height: fit-content;
+    }
 
-#message {
-    margin-top: 10px;
-    height: 500px;
-}
+    #message {
+        margin-top: 10px;
+        height: 500px;
+    }
 
 
 }
@@ -697,7 +706,7 @@ footer {
 /* for medium screens 576px wide and down */
 
 /* home page and footer */
- 
+
 @media screen and (max-width: 576px) {
 
     #paw-logo {
@@ -726,7 +735,7 @@ footer {
         margin: 50px 5px 25px 30px;
         padding: 0;
     }
-    
+
     .vl {
         border-left: 1px solid #f19820;
         height: 100px;
@@ -741,7 +750,7 @@ footer {
         display: block;
         clear: left;
     }
-    
+
     .social-links i {
         font-size: 125%;
         margin: 0px 50px 50px 30px;
@@ -759,7 +768,7 @@ footer {
         margin: 50px 5px 25px 30px;
         padding: 0;
     }
-    
+
     .vl {
         border-left: 2px solid #f19820;
         height: 100px;
@@ -770,96 +779,97 @@ footer {
         float: left;
     }
 
-/* about us, dog sitting and testimonial pages */
+    /* about us, dog sitting and testimonial pages */
 
-.info-pages {
-    margin: 0px;
-}
+    .info-pages {
+        margin: 0px;
+    }
 
-.main-title {
+    .main-title {
         font-size: 90%;
     }
 
     .hl {
         display: none;
     }
-    
+
     #interested {
         margin-left: 130px;
     }
-    
-    #button-for-contact{
+
+    #button-for-contact {
         margin-left: 130px;
     }
 
-.container-1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-}
+    .container-1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
 
 
-.container-1 > * {
-    padding: 20px; 
-}
+    .container-1>* {
+        padding: 20px;
+    }
 
-.textbox-blue {
-    order: 1;
-}
+    .textbox-blue {
+        order: 1;
+    }
 
-.image-blue-box > img {
-    order: 2;
-    width: 100vw;
-}
+    .image-blue-box>img {
+        order: 2;
+        width: 100vw;
+    }
 
-.container-2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    
-}
-.container-2 > * {
-    padding: 20px; 
-}
+    .container-2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
 
-.textbox-gold {
-    order: 1;
-    border-radius: 10px;
-}
+    }
 
-.image-gold-box > img {
-    order: 2;
-    width: 100vw;
-}
+    .container-2>* {
+        padding: 20px;
+    }
 
-/* contact us page */
+    .textbox-gold {
+        order: 1;
+        border-radius: 10px;
+    }
 
-.contact {
-    max-width: 100vw;
-    margin: 0;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-}
+    .image-gold-box>img {
+        order: 2;
+        width: 100vw;
+    }
 
-.contact-form {
-    margin: 0;
-}
+    /* contact us page */
 
-.thank-you-dog{
-    transform: scale(0.8);
-    margin: 0;
-   
-}
+    .contact {
+        max-width: 100vw;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
 
-.message {
-    margin-top: 10px;
-    height: 400px;
-}
+    .contact-form {
+        margin: 0;
+    }
 
-    
+    .thank-you-dog {
+        transform: scale(0.8);
+        margin: 0;
+
+    }
+
+    .message {
+        margin-top: 10px;
+        height: 400px;
+    }
+
+
 }
 
 /* for small screens 576px and down */
@@ -874,37 +884,38 @@ footer {
         padding: 0;
     }
 
-    #menu, #paw-logo {
+    #menu,
+    #paw-logo {
         line-height: 0px;
     }
-    
+
     #menu {
         letter-spacing: normal;
         width: 100%;
         display: inline-block;
         margin: 5px 0 0 0;
-        
+
     }
 
-     #menu li {
-         font-size: smaller;
-         width: 30vw;
-         padding: 5px 10px 25px 10px;
-         margin: 0 0 0 2%;
-         text-align: left;
-         
-     }
-    
-     #intro-text {
+    #menu li {
+        font-size: smaller;
+        width: 30vw;
+        padding: 5px 10px 25px 10px;
+        margin: 0 0 0 2%;
+        text-align: left;
+
+    }
+
+    #intro-text {
         width: 45%;
         height: 35%;
         padding: 15px;
         font-size: 70%;
         margin: 15px 10px 0px 135px;
         clear: left;
-      
+
     }
-    
+
     #background-image {
         overflow: hidden;
         background-size: inherit;
@@ -912,14 +923,14 @@ footer {
         background-position: 70%;
     }
 
-    
+
     #times {
         font-family: Poppins, sans-serif;
         font-size: 70%;
         margin: 50px 5px 25px 30px;
         padding: 0;
     }
-    
+
     .vl {
         border-left: 1px solid #f19820;
         height: 70px;
@@ -946,86 +957,90 @@ footer {
         font-size: 70%;
     }
 
-/* about us, dog sitting and testimonial pages */
+    /* about us, dog sitting and testimonial pages */
 
-.info-pages {
-    margin-bottom: 25px;
-    overflow: hidden;
-}
+    .info-pages {
+        margin-bottom: 25px;
+        overflow: hidden;
+    }
 
- .main-title {
+    .main-title {
         font-size: 80%;
     }
 
-.hl {
-    display: none;
-}
+    .hl {
+        display: none;
+    }
 
-#interested {
-    margin-left: 75px;
-}
+    #interested {
+        margin-left: 75px;
+    }
 
-#button-for-contact{
-    margin-left: 75px;
-}
+    #button-for-contact {
+        margin-left: 75px;
+    }
 
-.container-1 {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.container-1 > * {
-    padding: 10px;
-}
+    .container-1 {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 
-.textbox-blue {
-    order: 1;
-    border-radius: 10px;
-}
+    .container-1>* {
+        padding: 10px;
+    }
 
-.image-blue-box > img {
-    transform: scale(0.8);
-    width: 100vw;
-}
+    .textbox-blue {
+        order: 1;
+        border-radius: 10px;
+    }
 
-.container-2 {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.container-2 > * {
-    padding: 10px; 
-   
-}
-.textbox-gold {
-    order: 1;
-    border-radius: 10px;
-}
-.image-gold-box > img {
-    width: 100vw;
-}
+    .image-blue-box>img {
+        transform: scale(0.8);
+        width: 100vw;
+    }
 
-/* contact us page */
+    .container-2 {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 
-.contact {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    max-width: 100vw;
-}
+    .container-2>* {
+        padding: 10px;
 
-.thank-you-dog{
-    margin: 0;
-}
+    }
 
-.message {
-    margin-top: 10px;
-    height: 600px;
+    .textbox-gold {
+        order: 1;
+        border-radius: 10px;
+    }
+
+    .image-gold-box>img {
+        width: 100vw;
+    }
+
+    /* contact us page */
+
+    .contact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        max-width: 100vw;
+    }
+
+    .thank-you-dog {
+        margin: 0;
+    }
+
+    .message {
+        margin-top: 10px;
+        height: 600px;
+    }
+
 }
-    
-} 
