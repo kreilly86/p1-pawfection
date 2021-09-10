@@ -41,7 +41,8 @@ h3 {
     display: inline-block;
 }
 
-#menu, #paw-logo {
+#menu,
+#paw-logo {
     line-height: 150px;
 }
 
@@ -246,12 +247,12 @@ footer {
 }
 
 #interested {
-    margin: 50px 50% 25px 50%;
+    margin: 50px 50vw 25px 50vw;
     padding: 0px;
 }
 
 #button-for-contact {
-    margin: 0 0 0 50%;
+    margin: 0 0 0 50vw;
     padding: 5px 0px 50px 0px;
 }
 
@@ -480,7 +481,8 @@ footer {
         line-height: 5px;
     }
 
-    #menu, #paw-logo {
+    #menu,
+    #paw-logo {
         line-height: 0px;
     }
 
@@ -923,18 +925,6 @@ footer {
         font-size: 80%;
     }
 
-    .hl {
-        display: none;
-    }
-
-    #interested {
-        margin-left: 75px;
-    }
-
-    #button-for-contact {
-        margin-left: 75px;
-    }
-
     .container-1 {
         margin: 0;
         display: flex;
@@ -993,7 +983,7 @@ footer {
         margin: 0;
     }
 
-    .message {
+    #message {
         margin-top: 10px;
         height: 600px;
     }
