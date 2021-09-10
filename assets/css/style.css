@@ -173,10 +173,10 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 75%;
+    width: 100%;
     padding: 0;
     margin-bottom: 50px;
-    margin-left: 5%;
+    margin-left: 5px;
 }
 
 .textbox-blue {
@@ -188,6 +188,7 @@ footer {
     font-size: 100%;
     padding: 75px;
     text-align: left;
+    margin-left: 10px;
 }
 
 .image-blue-box {
@@ -200,11 +201,11 @@ footer {
     flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
-    width: 75%;
-    padding: 0 0 100px 0;
+    width: 100%;
+    padding: 0;
     margin-bottom: 0px;
-    margin-left: 10%;
 }
+
 .textbox-gold {
     color: #F0EFEC;
     font-family: Poppins, sans-serif;
@@ -213,6 +214,7 @@ footer {
     font-size: 100%;
     padding: 75px;
     text-align: left;
+    margin-left: 10px;
 }
 
 .image-gold-box {
@@ -220,26 +222,11 @@ footer {
     transform: scale(0.8);
 }
 
-#dog1 {
-    width: 480px;
-    height: 720px;
-}
 
-#dogs {
-    width: 480px;
-    height: 720px;
-}
+
 /* dog sitting info page */
 
-#dog-home {
-    width: 480px;
-    height: 640px;
-}
 
-#dog-staff {
-    width: 480px;
-    height: 719px;
-}
 
 .house-icon i{
     color:#590817;
@@ -285,15 +272,7 @@ footer {
 /* testimonial page */
 /* repeated class selectors to display content in flex boxes */
 
-#testimony1 {
-    width: 640px;
-    height: 427px;
-}
 
-#testimony2 {
-    width: 640px;
-    height: 427px;
-}
 /* contact page */
 
 .contact {
@@ -657,9 +636,8 @@ footer {
 
 .container-1 {
     display: flex;
-    flex-flow: row wrap;
-    width: 80%;
 }
+
 .container-1 > * {
     padding: 50px; 
 }
@@ -676,21 +654,18 @@ footer {
 
 .container-2 {
     display: flex;
-    flex-flow: row wrap;
-    width: 80%;
 }
+
 .container-2 > * {
     padding: 50px; 
 }
 
 .textbox-gold {
     order: 1;
-    border-radius: 10px;
 }
 
 .image-gold-box {
     order: 2;
-    justify-content: center;
 }
 
 /* contact us page */
@@ -794,7 +769,6 @@ footer {
 
 .info-pages {
     margin: 0px;
-
 }
 
 .main-title {
@@ -815,11 +789,11 @@ footer {
 
 .container-1 {
     display: flex;
-    flex-flow: row wrap;
     justify-content: center;
-    align-items: flex-end;
-    flex-direction: column;
+    align-items: center;
+    flex-direction: row;
 }
+
 
 .container-1 > * {
     padding: 20px; 
@@ -827,17 +801,19 @@ footer {
 
 .textbox-blue {
     order: 1;
-    border-radius: 10px;
 }
 
-.image-blue-box {
+.image-blue-box > img {
     order: 2;
-    transform: scale(0.6);
+    width: 100vw;
 }
 
 .container-2 {
     display: flex;
-    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
 }
 .container-2 > * {
     padding: 20px; 
@@ -848,9 +824,9 @@ footer {
     border-radius: 10px;
 }
 
-.image-gold-box {
+.image-gold-box > img {
     order: 2;
-    transform: scale(0.6);
+    width: 100vw;
 }
 
 /* contact us page */
@@ -991,7 +967,6 @@ footer {
 .container-1 {
     margin: 0;
     display: flex;
-    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -1005,15 +980,14 @@ footer {
     border-radius: 10px;
 }
 
-.image-blue-box {
-    order: 2; 
-    transform: scale(0.5);
+.image-blue-box > img {
+    transform: scale(0.8);
+    width: 100vw;
 }
 
 .container-2 {
     margin: 0;
     display: flex;
-    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -1026,9 +1000,8 @@ footer {
     order: 1;
     border-radius: 10px;
 }
-.image-gold-box {
-    order: 2;
-    transform: scale(0.5);
+.image-gold-box > img {
+    width: 100vw;
 }
 
 /* contact us page */
@@ -1043,7 +1016,6 @@ footer {
 
 .thank-you-dog{
     margin: 0;
-    transform: scale(0.7);
 }
 
 .message {
